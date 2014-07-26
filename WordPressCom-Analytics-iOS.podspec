@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "Library for handling Analytics tracking in WPiOS"
   s.homepage     = "http://apps.wordpress.org"
-  s.license      = "GPLv2"
+  s.license      = { :type => "GPLv2" }
   s.author             = { "Sendhil Panchadsaram" => "sendhil@automattic.com" }
   s.social_media_url   = "http://twitter.com/WordPressiOS"
   s.platform     = :ios, "7.0"
