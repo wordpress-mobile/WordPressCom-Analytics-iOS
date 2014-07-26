@@ -1,18 +1,65 @@
-//
-//  WPAnalytics.m
-//  WordPressCom-Analytics-iOS
-//
-//  Created by Sendhil Panchadsaram on 7/25/14.
-//  Copyright (c) 2014 WordPress. All rights reserved.
-//
-
 #import "WPAnalytics.h"
 
 @implementation WPAnalytics
 
-+ (void)sayHello
++ (NSMutableArray *)trackers
 {
-    NSLog(@"HI");
+    static NSMutableArray *trackers = nil;
+    
+    static dispatch_once_t predicate;
+    dispatch_once(&predicate, ^{
+        trackers = [[NSMutableArray alloc] init];
+    });
+    
+    return trackers;
+}
+
++ (void)registerTracker:(id<WPAnalyticsTracker>)tracker
+{
+    NSParameterAssert(tracker != nil);
+    [[self trackers] addObject:tracker];
+}
+
++ (void)track:(WPAnalyticsStat)stat
+{
+    for (id<WPAnalyticsTracker> tracker in [self trackers]) {
+        [tracker track:stat];
+    }
+}
+
++ (void)track:(WPAnalyticsStat)stat withProperties:(NSDictionary *)properties
+{
+    NSParameterAssert(properties != nil);
+    for (id<WPAnalyticsTracker> tracker in [self trackers]) {
+        [tracker track:stat withProperties:properties];
+    }
+}
+
++ (void)beginSession
+{
+    for (id<WPAnalyticsTracker> tracker in [self trackers]) {
+        if ([tracker respondsToSelector:@selector(beginSession)]) {
+            [tracker beginSession];
+        }
+    }
+}
+
++ (void)endSession
+{
+    for (id<WPAnalyticsTracker> tracker in [self trackers]) {
+        if ([tracker respondsToSelector:@selector(endSession)]) {
+            [tracker endSession];
+        }
+    }
+}
+
++ (void)refreshMetadata
+{
+    for (id<WPAnalyticsTracker> tracker in [self trackers]) {
+        if ([tracker respondsToSelector:@selector(refreshMetadata)]) {
+            [tracker refreshMetadata];
+        }
+    }
 }
 
 @end
