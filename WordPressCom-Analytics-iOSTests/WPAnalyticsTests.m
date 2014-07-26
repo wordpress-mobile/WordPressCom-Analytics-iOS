@@ -4,6 +4,43 @@
 #import <OCMock/OCMock.h>
 #import "TestAnalyticsTracker.h"
 
+// Rather than duplicate these tests for each method, we abstracted them into a set of
+// shared examples and use an NSInvocation object to tell us what to call.
+SharedExampleGroupsBegin(WPAnalyticsMethodBehavior)
+
+sharedExamplesFor(@"a WPAnalyticsTracker method", ^(NSDictionary *data) {
+    NSInvocation *invocation = data[@"invocation"];
+    it(@"should not be called if tracker isn't registered", ^{
+        id trackerMock = OCMStrictClassMock([TestAnalyticsTracker class]);
+        id expectation = [trackerMock reject];
+        [invocation invokeWithTarget:expectation];
+        [trackerMock verify];
+    });
+    
+    it(@"should be called if tracker is registered", ^{
+        id trackerMock = OCMStrictClassMock([TestAnalyticsTracker class]);
+        id expectation = [trackerMock expect];
+        [invocation invokeWithTarget:expectation];
+        [invocation invokeWithTarget:trackerMock];
+        [trackerMock verify];
+    });
+    
+    it(@"should be called on multiple trackers if registered", ^{
+        id trackerMock = OCMStrictClassMock([TestAnalyticsTracker class]);
+        id trackerMock2 = OCMStrictClassMock([TestAnalyticsTracker class]);
+        id expectation = [trackerMock expect];
+        id expectation2 = [trackerMock2 expect];
+        [invocation invokeWithTarget:expectation];
+        [invocation invokeWithTarget:expectation2];
+        [invocation invokeWithTarget:trackerMock];
+        [invocation invokeWithTarget:trackerMock2];
+        [trackerMock verify];
+        [trackerMock2 verify];
+    });
+});
+
+SharedExampleGroupsEnd
+
 SpecBegin(WPAnalyticsSpecs)
 
 beforeEach(^{
@@ -11,149 +48,50 @@ beforeEach(^{
 });
 
 describe(@"beginSession", ^{
+    NSMethodSignature *signature = [TestAnalyticsTracker instanceMethodSignatureForSelector:@selector(beginSession)];
+    NSInvocation *invocation  = [NSInvocation invocationWithMethodSignature:signature];
+    [invocation setSelector:@selector(beginSession)];
     
-    it(@"should not be called if tracker isn't registered", ^{
-        id trackerMock = OCMStrictClassMock([TestAnalyticsTracker class]);
-        [[trackerMock reject] beginSession];
-        [WPAnalytics beginSession];
-        [trackerMock verify];
-    });
-    
-    it(@"should be called if tracker is registered", ^{
-        id trackerMock = OCMStrictClassMock([TestAnalyticsTracker class]);
-        [[trackerMock expect] beginSession];
-        [WPAnalytics registerTracker:trackerMock];
-        [WPAnalytics beginSession];
-        [trackerMock verify];
-    });
-    
-    it(@"should be called on multiple trackers if registered", ^{
-        id trackerMock = OCMStrictClassMock([TestAnalyticsTracker class]);
-        id trackerMock2 = OCMStrictClassMock([TestAnalyticsTracker class]);
-        [[trackerMock expect] beginSession];
-        [[trackerMock2 expect] beginSession];
-        [WPAnalytics registerTracker:trackerMock];
-        [WPAnalytics registerTracker:trackerMock2];
-        [WPAnalytics beginSession];
-        [trackerMock verify];
-        [trackerMock2 verify];
-    });
+    itShouldBehaveLike(@"a WPAnalyticsTracker method", @{@"invocation": invocation});
 });
 
 describe(@"endSession", ^{
-    it(@"should not be called if tracker isn't registered", ^{
-        id trackerMock = OCMStrictClassMock([TestAnalyticsTracker class]);
-        [[trackerMock reject] endSession];
-        [WPAnalytics endSession];
-        [trackerMock verify];
-    });
+    NSMethodSignature *signature = [TestAnalyticsTracker instanceMethodSignatureForSelector:@selector(endSession)];
+    NSInvocation *invocation  = [NSInvocation invocationWithMethodSignature:signature];
+    [invocation setSelector:@selector(endSession)];
     
-    it(@"should be called if tracker is registered", ^{
-        id trackerMock = OCMStrictClassMock([TestAnalyticsTracker class]);
-        [[trackerMock expect] endSession];
-        [WPAnalytics registerTracker:trackerMock];
-        [WPAnalytics endSession];
-        [trackerMock verify];
-    });
-    
-    it(@"should be called on multiple trackers if registered", ^{
-        id trackerMock = OCMStrictClassMock([TestAnalyticsTracker class]);
-        id trackerMock2 = OCMStrictClassMock([TestAnalyticsTracker class]);
-        [[trackerMock expect] endSession];
-        [[trackerMock2 expect] endSession];
-        [WPAnalytics registerTracker:trackerMock];
-        [WPAnalytics registerTracker:trackerMock2];
-        [WPAnalytics endSession];
-        [trackerMock verify];
-        [trackerMock2 verify];
-    });
+    itShouldBehaveLike(@"a WPAnalyticsTracker method", @{@"invocation": invocation});
 });
 
 describe(@"refreshMetadata", ^{
-    it(@"should not be called if tracker isn't registered", ^{
-        id trackerMock = OCMStrictClassMock([TestAnalyticsTracker class]);
-        [[trackerMock reject] refreshMetadata];
-        [WPAnalytics refreshMetadata];
-        [trackerMock verify];
-    });
+    NSMethodSignature *signature = [TestAnalyticsTracker instanceMethodSignatureForSelector:@selector(refreshMetadata)];
+    NSInvocation *invocation  = [NSInvocation invocationWithMethodSignature:signature];
+    [invocation setSelector:@selector(refreshMetadata)];
     
-    it(@"should be called if tracker is registered", ^{
-        id trackerMock = OCMStrictClassMock([TestAnalyticsTracker class]);
-        [[trackerMock expect] refreshMetadata];
-        [WPAnalytics registerTracker:trackerMock];
-        [WPAnalytics refreshMetadata];
-        [trackerMock verify];
-    });
-    
-    it(@"should be called on multiple trackers if registered", ^{
-        id trackerMock = OCMStrictClassMock([TestAnalyticsTracker class]);
-        id trackerMock2 = OCMStrictClassMock([TestAnalyticsTracker class]);
-        [[trackerMock expect] refreshMetadata];
-        [[trackerMock2 expect] refreshMetadata];
-        [WPAnalytics registerTracker:trackerMock];
-        [WPAnalytics registerTracker:trackerMock2];
-        [WPAnalytics refreshMetadata];
-        [trackerMock verify];
-        [trackerMock2 verify];
-    });
+    itShouldBehaveLike(@"a WPAnalyticsTracker method", @{@"invocation": invocation});
 });
 
 describe(@"track:", ^{
-    it(@"should not be called if tracker isn't registered", ^{
-        id trackerMock = OCMStrictClassMock([TestAnalyticsTracker class]);
-        [[trackerMock reject] track:WPAnalyticsStatApplicationOpened];
-        [WPAnalytics track:WPAnalyticsStatApplicationOpened];
-        [trackerMock verify];
-    });
+    NSMethodSignature *signature = [TestAnalyticsTracker instanceMethodSignatureForSelector:@selector(track:)];
+    NSInvocation *invocation  = [NSInvocation invocationWithMethodSignature:signature];
+    [invocation setSelector:@selector(track:)];
+    WPAnalyticsStat stat = WPAnalyticsStatApplicationOpened;
+    [invocation setArgument:&stat atIndex:2];
     
-    it(@"should be called if tracker is registered", ^{
-        id trackerMock = OCMStrictClassMock([TestAnalyticsTracker class]);
-        [[trackerMock expect] track:WPAnalyticsStatApplicationOpened];
-        [WPAnalytics registerTracker:trackerMock];
-        [WPAnalytics track:WPAnalyticsStatApplicationOpened];
-        [trackerMock verify];
-    });
-    
-    it(@"should be called on multiple trackers if registered", ^{
-        id trackerMock = OCMStrictClassMock([TestAnalyticsTracker class]);
-        id trackerMock2 = OCMStrictClassMock([TestAnalyticsTracker class]);
-        [[trackerMock expect] track:WPAnalyticsStatApplicationOpened];
-        [[trackerMock2 expect] track:WPAnalyticsStatApplicationOpened];
-        [WPAnalytics registerTracker:trackerMock];
-        [WPAnalytics registerTracker:trackerMock2];
-        [WPAnalytics track:WPAnalyticsStatApplicationOpened];
-        [trackerMock verify];
-        [trackerMock2 verify];
-    });
+    itShouldBehaveLike(@"a WPAnalyticsTracker method", @{@"invocation": invocation});
 });
 
 describe(@"track:withProperties:", ^{
-    it(@"should not be called if tracker isn't registered", ^{
-        id trackerMock = OCMStrictClassMock([TestAnalyticsTracker class]);
-        [[trackerMock reject] track:WPAnalyticsStatApplicationOpened withProperties:@{}];
-        [WPAnalytics track:WPAnalyticsStatApplicationOpened];
-        [trackerMock verify];
-    });
+    NSMethodSignature *signature = [TestAnalyticsTracker instanceMethodSignatureForSelector:@selector(track:withProperties:)];
+    NSInvocation *invocation  = [NSInvocation invocationWithMethodSignature:signature];
+    [invocation setSelector:@selector(track:withProperties:)];
     
-    it(@"should be called if tracker is registered", ^{
-        id trackerMock = OCMStrictClassMock([TestAnalyticsTracker class]);
-        [[trackerMock expect] track:WPAnalyticsStatApplicationOpened withProperties:@{}];
-        [WPAnalytics registerTracker:trackerMock];
-        [WPAnalytics track:WPAnalyticsStatApplicationOpened withProperties:@{}];
-        [trackerMock verify];
-    });
+    WPAnalyticsStat stat = WPAnalyticsStatApplicationOpened;
+    NSDictionary *dict = @{};
+    [invocation setArgument:&stat atIndex:2];
+    [invocation setArgument:&dict atIndex:3];
     
-    it(@"should be called on multiple trackers if registered", ^{
-        id trackerMock = OCMStrictClassMock([TestAnalyticsTracker class]);
-        id trackerMock2 = OCMStrictClassMock([TestAnalyticsTracker class]);
-        [[trackerMock expect] track:WPAnalyticsStatApplicationOpened withProperties:@{}];
-        [[trackerMock2 expect] track:WPAnalyticsStatApplicationOpened withProperties:@{}];
-        [WPAnalytics registerTracker:trackerMock];
-        [WPAnalytics registerTracker:trackerMock2];
-        [WPAnalytics track:WPAnalyticsStatApplicationOpened withProperties:@{}];
-        [trackerMock verify];
-        [trackerMock2 verify];
-    });
+    itShouldBehaveLike(@"a WPAnalyticsTracker method", @{@"invocation": invocation});
 });
 
 SpecEnd
