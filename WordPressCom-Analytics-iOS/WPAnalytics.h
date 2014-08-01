@@ -62,6 +62,9 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatSignedInToJetpack,
     WPAnalyticsStatSkippedConnectingToJetpack,
     WPAnalyticsStatStatsAccessed,
+    WPAnalyticsStatStatsOpenedWebVersion,
+    WPAnalyticsStatStatsTappedBarChart,
+    WPAnalyticsStatStatsScrolledToBottom,
     WPAnalyticsStatThemesAccessedThemeBrowser,
     WPAnalyticsStatThemesChangedTheme,
 };
