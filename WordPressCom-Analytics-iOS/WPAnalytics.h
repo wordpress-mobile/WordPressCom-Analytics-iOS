@@ -84,6 +84,10 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatStatsScrolledToBottom,
     WPAnalyticsStatThemesAccessedThemeBrowser,
     WPAnalyticsStatThemesChangedTheme,
+    WPAnalyticsStatSupportOpenedHelpshiftScreen,
+    WPAnalyticsStatSupportSentMessage,
+    WPAnalyticsStatSupportSentReplyToSupportMessage,
+    WPAnalyticsStatSupportReceivedResponseFromSupport,
 };
 
 @protocol WPAnalyticsTracker;
