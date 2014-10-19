@@ -30,6 +30,7 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatEditorTappedUnorderedList,
     WPAnalyticsStatEditorUpdatedPost,
     WPAnalyticsStatLoginFailed,
+    WPAnalyticsStatLoginFailedToGuessXMLRPC,
     WPAnalyticsStatNotificationApproved,
     WPAnalyticsStatNotificationFlaggedAsSpam,
     WPAnalyticsStatNotificationFollowAction,
