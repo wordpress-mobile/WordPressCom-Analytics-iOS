@@ -31,6 +31,7 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatEditorUpdatedPost,
     WPAnalyticsStatLoginFailed,
     WPAnalyticsStatLoginFailedToGuessXMLRPC,
+    WPAnalyticsStatLowMemoryWarning,
     WPAnalyticsStatNotificationApproved,
     WPAnalyticsStatNotificationFlaggedAsSpam,
     WPAnalyticsStatNotificationFollowAction,
