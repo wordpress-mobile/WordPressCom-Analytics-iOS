@@ -43,6 +43,7 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatNotificationUnliked,
     WPAnalyticsStatNotificationsAccessed,
     WPAnalyticsStatNotificationsOpenedNotificationDetails,
+    WPAnalyticsStatNotificationsMissingSyncWarning,
     WPAnalyticsStatOpenedComments,
     WPAnalyticsStatOpenedMediaLibrary,
     WPAnalyticsStatOpenedPages,
