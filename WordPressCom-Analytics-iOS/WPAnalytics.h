@@ -7,6 +7,7 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatAppReviewsDeclinedToRateApp,
     WPAnalyticsStatAppReviewsDidntLikeApp,
     WPAnalyticsStatAppReviewsLikedApp,
+    WPAnalyticsStatAppReviewsOpenedFeedbackScreen,
     WPAnalyticsStatAppReviewsRatedApp,
     WPAnalyticsStatAppReviewsSawPrompt,
     WPAnalyticsStatAppReviewsSentFeedback,
