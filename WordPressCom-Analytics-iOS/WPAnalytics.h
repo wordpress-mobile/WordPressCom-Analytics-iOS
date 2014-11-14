@@ -2,6 +2,7 @@
 
 typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatNoStat, // Since we can't have a nil enum we'll use this to act as the nil
+    WPAnalyticsShowedAppReviewPrompt,
     WPAnalyticsStatAddedSelfHostedSite,
     WPAnalyticsStatAddedSelfHostedSiteButJetpackNotConnectedToWPCom,
     WPAnalyticsStatApplicationClosed,
@@ -80,7 +81,6 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatSharedItemViaSMS,
     WPAnalyticsStatSharedItemViaTwitter,
     WPAnalyticsStatSharedItemViaWeibo,
-    WPAnalyticsStatShowedAppReviewPrompt,
     WPAnalyticsStatSignedIn,
     WPAnalyticsStatSignedInToJetpack,
     WPAnalyticsStatSkippedConnectingToJetpack,
