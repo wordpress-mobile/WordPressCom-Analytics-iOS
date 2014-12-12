@@ -60,7 +60,6 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatOpenedSettings,
     WPAnalyticsStatOpenedViewAdmin,
     WPAnalyticsStatOpenedViewSite,
-    WPAnalyticsStatPerformedCoreDataMigrationFixFor45,
     WPAnalyticsStatPerformedJetpackSignInFromStatsScreen,
     WPAnalyticsStatPublishedPostWithCategories,
     WPAnalyticsStatPublishedPostWithPhoto,
