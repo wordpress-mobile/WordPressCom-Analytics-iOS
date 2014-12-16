@@ -71,6 +71,29 @@ describe(@"refreshMetadata", ^{
     itShouldBehaveLike(@"a WPAnalyticsTracker method", @{@"invocation": invocation});
 });
 
+describe(@"beginTimerForStat:", ^{
+    NSMethodSignature *signature = [TestAnalyticsTracker instanceMethodSignatureForSelector:@selector(beginTimerForStat:)];
+    NSInvocation *invocation  = [NSInvocation invocationWithMethodSignature:signature];
+    [invocation setSelector:@selector(beginTimerForStat:)];
+    WPAnalyticsStat stat = WPAnalyticsStatApplicationOpened;
+    [invocation setArgument:&stat atIndex:2];
+    
+    itShouldBehaveLike(@"a WPAnalyticsTracker method", @{@"invocation": invocation});
+});
+
+describe(@"endTimerForStat:withProperties", ^{
+    NSMethodSignature *signature = [TestAnalyticsTracker instanceMethodSignatureForSelector:@selector(endTimerForStat:withProperties:)];
+    NSInvocation *invocation  = [NSInvocation invocationWithMethodSignature:signature];
+    [invocation setSelector:@selector(endTimerForStat:withProperties:)];
+    
+    WPAnalyticsStat stat = WPAnalyticsStatApplicationOpened;
+    NSDictionary *dict = @{};
+    [invocation setArgument:&stat atIndex:2];
+    [invocation setArgument:&dict atIndex:3];
+    
+    itShouldBehaveLike(@"a WPAnalyticsTracker method", @{@"invocation": invocation});
+});
+
 describe(@"track:", ^{
     NSMethodSignature *signature = [TestAnalyticsTracker instanceMethodSignatureForSelector:@selector(track:)];
     NSInvocation *invocation  = [NSInvocation invocationWithMethodSignature:signature];
