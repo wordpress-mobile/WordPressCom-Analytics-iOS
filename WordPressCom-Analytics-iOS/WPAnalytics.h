@@ -38,6 +38,8 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatEditorTappedUnlink,
     WPAnalyticsStatEditorTappedUnorderedList,
     WPAnalyticsStatEditorUpdatedPost,
+    WPAnalyticsStatEditorUploadMediaFailed,
+    WPAnalyticsStatEditorUploadMediaRetried,
     WPAnalyticsStatLoginFailed,
     WPAnalyticsStatLoginFailedToGuessXMLRPC,
     WPAnalyticsStatLowMemoryWarning,
