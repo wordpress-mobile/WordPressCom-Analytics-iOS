@@ -21,6 +21,7 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatEditorClosed,
     WPAnalyticsStatEditorCreatedPost,
     WPAnalyticsStatEditorDiscardedChanges,
+    WPAnalyticsStatEditorEditedImage,
     WPAnalyticsStatEditorEnabledNewVersion,
     WPAnalyticsStatEditorPublishedPost,
     WPAnalyticsStatEditorSavedDraft,
