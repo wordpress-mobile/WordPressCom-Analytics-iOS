@@ -110,8 +110,6 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatSupportSentReplyToSupportMessage,
     WPAnalyticsStatThemesAccessedThemeBrowser,
     WPAnalyticsStatThemesChangedTheme,
-    WPAnalyticsStatUserCreatedAccountAfter46,
-    WPAnalyticsStatUserCreatedAccountBefore46,
 };
 
 @protocol WPAnalyticsTracker;
