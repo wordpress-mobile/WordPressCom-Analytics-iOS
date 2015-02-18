@@ -60,11 +60,15 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatNotificationsAccessed,
     WPAnalyticsStatNotificationsMissingSyncWarning,
     WPAnalyticsStatNotificationsOpenedNotificationDetails,
+    WPAnalyticsStatOnePasswordLogin,
+    WPAnalyticsStatOnePasswordSignup,
+    WPAnalyticsStatOnePasswordFailed,
     WPAnalyticsStatOpenedComments,
     WPAnalyticsStatOpenedMediaLibrary,
     WPAnalyticsStatOpenedPages,
     WPAnalyticsStatOpenedPosts,
     WPAnalyticsStatOpenedSettings,
+    WPAnalyticsStatOpenedSupport,
     WPAnalyticsStatOpenedViewAdmin,
     WPAnalyticsStatOpenedViewSite,
     WPAnalyticsStatPerformedCoreDataMigrationFixFor45,
@@ -111,6 +115,8 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatSupportSentReplyToSupportMessage,
     WPAnalyticsStatThemesAccessedThemeBrowser,
     WPAnalyticsStatThemesChangedTheme,
+    WPAnalyticsStatTwoFactorCodeRequested,
+    WPAnalyticsStatTwoFactorSentSMS
 };
 
 @protocol WPAnalyticsTracker;
