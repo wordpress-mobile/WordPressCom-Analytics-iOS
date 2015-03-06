@@ -87,6 +87,7 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatReaderLoadedFreshlyPressed,
     WPAnalyticsStatReaderLoadedTag,
     WPAnalyticsStatReaderOpenedArticle,
+    WPAnalyticsStatReaderPreviewedSite,
     WPAnalyticsStatReaderRebloggedArticle,
     WPAnalyticsStatReaderUnfollowedReaderTag,
     WPAnalyticsStatSelectedInstallJetpack,
