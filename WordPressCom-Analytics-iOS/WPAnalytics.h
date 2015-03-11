@@ -78,6 +78,7 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatPublishedPostWithPhoto,
     WPAnalyticsStatPublishedPostWithTags,
     WPAnalyticsStatPublishedPostWithVideo,
+    WPAnalyticsStatPushNotificationAlertPressed,
     WPAnalyticsStatReaderAccessed,
     WPAnalyticsStatReaderCommentedOnArticle,
     WPAnalyticsStatReaderFollowedReaderTag,
