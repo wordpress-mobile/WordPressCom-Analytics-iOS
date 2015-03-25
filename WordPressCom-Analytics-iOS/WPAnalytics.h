@@ -116,6 +116,7 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatSupportReceivedResponseFromSupport,
     WPAnalyticsStatSupportSentMessage,
     WPAnalyticsStatSupportSentReplyToSupportMessage,
+    WPAnalyticsStatSupportUserRepliedToHelpshift,
     WPAnalyticsStatThemesAccessedThemeBrowser,
     WPAnalyticsStatThemesChangedTheme,
     WPAnalyticsStatTwoFactorCodeRequested,
