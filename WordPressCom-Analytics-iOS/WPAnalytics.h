@@ -127,6 +127,8 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatSignedInToJetpack,
     WPAnalyticsStatSkippedConnectingToJetpack,
     WPAnalyticsStatStatsAccessed,
+    WPAnalyticsStatStatsInsightsAccessed,
+    WPAnalyticsStatStatsPeriodStatsAccessed,
     WPAnalyticsStatStatsOpenedWebVersion,
     WPAnalyticsStatStatsScrolledToBottom,
     WPAnalyticsStatStatsSinglePostAccessed,
