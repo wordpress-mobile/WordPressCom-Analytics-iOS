@@ -151,7 +151,7 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
 };
 
 extern NSString *const WPAnalyticsStatEditorPublishedPostPropertyCategory;
-extern NSString *const WPAnalyticsStatEditorPublishedPostPropertyImage;
+extern NSString *const WPAnalyticsStatEditorPublishedPostPropertyPhoto;
 extern NSString *const WPAnalyticsStatEditorPublishedPostPropertyTag;
 extern NSString *const WPAnalyticsStatEditorPublishedPostPropertyVideo;
 
