@@ -95,10 +95,6 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatPostListStatusFilterChanged,
     WPAnalyticsStatPostListTrashAction,
     WPAnalyticsStatPostListViewAction,
-    WPAnalyticsStatPublishedPostWithCategories,
-    WPAnalyticsStatPublishedPostWithPhoto,
-    WPAnalyticsStatPublishedPostWithTags,
-    WPAnalyticsStatPublishedPostWithVideo,
     WPAnalyticsStatPushAuthenticationApproved,
     WPAnalyticsStatPushAuthenticationExpired,
     WPAnalyticsStatPushAuthenticationFailed,
@@ -150,8 +146,14 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatThemesAccessedThemeBrowser,
     WPAnalyticsStatThemesChangedTheme,
     WPAnalyticsStatTwoFactorCodeRequested,
-    WPAnalyticsStatTwoFactorSentSMS
+    WPAnalyticsStatTwoFactorSentSMS,
+    WPAnalyticsStatMaxValue
 };
+
+extern NSString *const WPAnalyticsStatEditorPublishedPostPropertyCategory;
+extern NSString *const WPAnalyticsStatEditorPublishedPostPropertyPhoto;
+extern NSString *const WPAnalyticsStatEditorPublishedPostPropertyTag;
+extern NSString *const WPAnalyticsStatEditorPublishedPostPropertyVideo;
 
 @protocol WPAnalyticsTracker;
 @interface WPAnalytics : NSObject
