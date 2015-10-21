@@ -156,7 +156,12 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatThemesChangedTheme,
     WPAnalyticsStatTwoFactorCodeRequested,
     WPAnalyticsStatTwoFactorSentSMS,
-    WPAnalyticsStatMaxValue
+    WPAnalyticsStatMaxValue,
+    WPAnalyticsStat3DTouchShortcutLogInPressed,
+    WPAnalyticsStat3DTouchShortcutNewPostPressed,
+    WPAnalyticsStat3DTouchShortcutNewPhotoPostPressed,
+    WPAnalyticsStat3DTouchShortcutStatsPressed,
+    WPAnalyticsStat3DTouchShortcutNotificationsPressed
 };
 
 extern NSString *const WPAnalyticsStatEditorPublishedPostPropertyCategory;
