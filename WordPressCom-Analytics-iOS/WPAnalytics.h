@@ -156,11 +156,11 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatThemesChangedTheme,
     WPAnalyticsStatTwoFactorCodeRequested,
     WPAnalyticsStatTwoFactorSentSMS,
-    WPAnalyticsStat3DTouchShortcutLogInPressed,
-    WPAnalyticsStat3DTouchShortcutNewPostPressed,
-    WPAnalyticsStat3DTouchShortcutNewPhotoPostPressed,
-    WPAnalyticsStat3DTouchShortcutStatsPressed,
-    WPAnalyticsStat3DTouchShortcutNotificationsPressed,
+    WPAnalyticsStat3DTouchShortcutLogIn,
+    WPAnalyticsStat3DTouchShortcutNewPost,
+    WPAnalyticsStat3DTouchShortcutNewPhotoPost,
+    WPAnalyticsStat3DTouchShortcutStats,
+    WPAnalyticsStat3DTouchShortcutNotifications,
     WPAnalyticsStatMaxValue
 };
 
