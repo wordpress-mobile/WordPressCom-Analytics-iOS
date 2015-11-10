@@ -47,6 +47,11 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatEditorUpdatedPost,
     WPAnalyticsStatEditorUploadMediaFailed,
     WPAnalyticsStatEditorUploadMediaRetried,
+    WPAnalyticsStatForceTouchShortcutLogIn,
+    WPAnalyticsStatForceTouchShortcutNewPost,
+    WPAnalyticsStatForceTouchShortcutNewPhotoPost,
+    WPAnalyticsStatForceTouchShortcutStats,
+    WPAnalyticsStatForceTouchShortcutNotifications,
     WPAnalyticsStatLogSpecialCondition,
     WPAnalyticsStatLoginFailed,
     WPAnalyticsStatLoginFailedToGuessXMLRPC,
@@ -156,11 +161,6 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatThemesChangedTheme,
     WPAnalyticsStatTwoFactorCodeRequested,
     WPAnalyticsStatTwoFactorSentSMS,
-    WPAnalyticsStat3DTouchShortcutLogIn,
-    WPAnalyticsStat3DTouchShortcutNewPost,
-    WPAnalyticsStat3DTouchShortcutNewPhotoPost,
-    WPAnalyticsStat3DTouchShortcutStats,
-    WPAnalyticsStat3DTouchShortcutNotifications,
     WPAnalyticsStatMaxValue
 };
 
