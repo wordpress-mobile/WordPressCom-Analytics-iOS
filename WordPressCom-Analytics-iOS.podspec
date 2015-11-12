@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "WordPressCom-Analytics-iOS"
-  s.version      = "0.0.39"
+  s.version      = "0.0.40"
   s.summary      = "Library for handling Analytics tracking in WPiOS"
   s.homepage     = "http://apps.wordpress.org"
   s.license      = { :type => "GPLv2" }
@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.source_files  = "WordPressCom-Analytics-iOS", "WordPressCom-Analytics-iOS/**/*.{h,m}"
   s.prefix_header_file = "WordPressCom-Analytics-iOS/WordPressCom-Analytics-iOS-Prefix.pch"
   s.requires_arc = true
+  s.header_dir = 'WordPressComAnalytics'
 end
