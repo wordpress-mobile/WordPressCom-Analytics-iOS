@@ -164,7 +164,7 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatThemesDemoAccessed,
     WPAnalyticsStatThemesDetailsAccessed,
     WPAnalyticsStatThemesPreviewedSite,
-    WPAnalyticsStatThemeSupportAccessed,
+    WPAnalyticsStatThemesSupportAccessed,
     WPAnalyticsStatTwoFactorCodeRequested,
     WPAnalyticsStatTwoFactorSentSMS,
     WPAnalyticsStatMaxValue
