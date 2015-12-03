@@ -100,6 +100,7 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatPushAuthenticationFailed,
     WPAnalyticsStatPushAuthenticationIgnored,
     WPAnalyticsStatPushNotificationAlertPressed,
+    WPAnalyticsStatPushNotificationReceived,
     WPAnalyticsStatReaderAccessed,
     WPAnalyticsStatReaderArticleCommentedOn,
     WPAnalyticsStatReaderArticleLiked,
