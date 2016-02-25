@@ -136,6 +136,7 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatSharedItemViaSMS,
     WPAnalyticsStatSharedItemViaTwitter,
     WPAnalyticsStatSharedItemViaWeibo,
+    WPAnalyticsStatSharedWebCredentialLogin,
     WPAnalyticsStatShortcutLogIn,
     WPAnalyticsStatShortcutNewPost,
     WPAnalyticsStatShortcutNewPhotoPost,
