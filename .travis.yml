@@ -1,6 +1,6 @@
 language: objective-c
 osx_image: xcode7.1
-xcode_workspace: WordPressCom-Analytics-iOS.xcworkspace
-xcode_scheme: WordPressCom-Analytics-iOS
+xcode_project: WordPressCom-Analytics-iOS.xcodeproj
+xcode_scheme: WordPressComAnalytics
 xcode_sdk: iphonesimulator
 sudo: false
