@@ -1,0 +1,2 @@
+github "specta/specta" ~> 1.0
+github "erikdoe/ocmock" ~> 3.1.2

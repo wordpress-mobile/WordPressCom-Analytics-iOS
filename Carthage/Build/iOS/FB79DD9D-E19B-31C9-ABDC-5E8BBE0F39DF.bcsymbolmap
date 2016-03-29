@@ -1,0 +1,1633 @@
+BCSymbolMap Version: 1.0
++[OCMockObject initialize]
++[OCMockObject mockForClass:]
++[OCMockObject mockForProtocol:]
++[OCMockObject partialMockForObject:]
++[OCMockObject niceMockForClass:]
++[OCMockObject niceMockForProtocol:]
++[OCMockObject _makeNice:]
++[OCMockObject observerMock]
+-[OCMockObject init]
+-[OCMockObject dealloc]
+-[OCMockObject description]
+-[OCMockObject addStub:]
+-[OCMockObject addExpectation:]
+-[OCMockObject setExpectationOrderMatters:]
+-[OCMockObject stopMocking]
+-[OCMockObject stub]
+-[OCMockObject expect]
+-[OCMockObject reject]
+-[OCMockObject verify]
+-[OCMockObject verifyAtLocation:]
+-[OCMockObject verifyWithDelay:]
+-[OCMockObject verifyWithDelay:atLocation:]
+-[OCMockObject verifyInvocation:]
+-[OCMockObject verifyInvocation:atLocation:]
+-[OCMockObject forwardingTargetForSelector:]
+-[OCMockObject handleSelector:]
+-[OCMockObject forwardInvocation:]
+-[OCMockObject handleInvocation:]
+-[OCMockObject _nextExpectedInvocation]
+-[OCMockObject handleUnRecordedInvocation:]
+-[OCMockObject doesNotRecognizeSelector:]
+-[OCMockObject _stubDescriptions:]
+OBJC_CLASSLIST_REFERENCES_$_
+OBJC_METH_VAR_NAME_
+OBJC_SELECTOR_REFERENCES_
+OBJC_METH_VAR_NAME_.1
+OBJC_SELECTOR_REFERENCES_.2
+OBJC_METH_VAR_NAME_.3
+OBJC_SELECTOR_REFERENCES_.4
+OBJC_CLASSLIST_REFERENCES_$_.5
+.str
+_unnamed_cfstring_
+OBJC_METH_VAR_NAME_.6
+OBJC_SELECTOR_REFERENCES_.7
+OBJC_CLASSLIST_REFERENCES_$_.8
+OBJC_METH_VAR_NAME_.9
+OBJC_SELECTOR_REFERENCES_.10
+OBJC_METH_VAR_NAME_.11
+OBJC_SELECTOR_REFERENCES_.12
+OBJC_METH_VAR_NAME_.13
+OBJC_SELECTOR_REFERENCES_.14
+OBJC_CLASSLIST_REFERENCES_$_.15
+OBJC_METH_VAR_NAME_.16
+OBJC_SELECTOR_REFERENCES_.17
+OBJC_CLASSLIST_REFERENCES_$_.18
+OBJC_METH_VAR_NAME_.19
+OBJC_SELECTOR_REFERENCES_.20
+OBJC_METH_VAR_NAME_.21
+OBJC_SELECTOR_REFERENCES_.22
+OBJC_METH_VAR_NAME_.23
+OBJC_SELECTOR_REFERENCES_.24
+OBJC_METH_VAR_NAME_.25
+OBJC_SELECTOR_REFERENCES_.26
+OBJC_CLASSLIST_REFERENCES_$_.27
+OBJC_METH_VAR_NAME_.28
+OBJC_SELECTOR_REFERENCES_.29
+OBJC_CLASSLIST_REFERENCES_$_.30
+OBJC_METH_VAR_NAME_.31
+OBJC_SELECTOR_REFERENCES_.32
+OBJC_CLASSLIST_SUP_REFS_$_
+OBJC_METH_VAR_NAME_.33
+OBJC_SELECTOR_REFERENCES_.34
+.str.35
+_unnamed_cfstring_.36
+OBJC_METH_VAR_NAME_.37
+OBJC_SELECTOR_REFERENCES_.38
+OBJC_CLASSLIST_REFERENCES_$_.39
+OBJC_METH_VAR_NAME_.40
+OBJC_SELECTOR_REFERENCES_.41
+OBJC_CLASSLIST_REFERENCES_$_.42
+OBJC_METH_VAR_NAME_.43
+OBJC_SELECTOR_REFERENCES_.44
+OBJC_METH_VAR_NAME_.45
+OBJC_SELECTOR_REFERENCES_.46
+OBJC_METH_VAR_NAME_.47
+OBJC_SELECTOR_REFERENCES_.48
+OBJC_METH_VAR_NAME_.49
+OBJC_SELECTOR_REFERENCES_.50
+OBJC_METH_VAR_NAME_.51
+OBJC_SELECTOR_REFERENCES_.52
+OBJC_METH_VAR_NAME_.53
+OBJC_SELECTOR_REFERENCES_.54
+OBJC_METH_VAR_NAME_.55
+OBJC_SELECTOR_REFERENCES_.56
+OBJC_CLASSLIST_REFERENCES_$_.57
+.str.58
+_unnamed_cfstring_.59
+OBJC_METH_VAR_NAME_.60
+OBJC_SELECTOR_REFERENCES_.61
+OBJC_METH_VAR_NAME_.62
+OBJC_SELECTOR_REFERENCES_.63
+OBJC_METH_VAR_NAME_.64
+OBJC_SELECTOR_REFERENCES_.65
+.str.66
+_unnamed_cfstring_.67
+OBJC_CLASSLIST_REFERENCES_$_.68
+OBJC_METH_VAR_NAME_.69
+OBJC_SELECTOR_REFERENCES_.70
+OBJC_METH_VAR_NAME_.71
+OBJC_SELECTOR_REFERENCES_.72
+.str.73
+_unnamed_cfstring_.74
+OBJC_CLASSLIST_REFERENCES_$_.75
+OBJC_METH_VAR_NAME_.76
+OBJC_SELECTOR_REFERENCES_.77
+OBJC_CLASSLIST_REFERENCES_$_.78
+OBJC_METH_VAR_NAME_.79
+OBJC_SELECTOR_REFERENCES_.80
+OBJC_CLASSLIST_REFERENCES_$_.81
+OBJC_METH_VAR_NAME_.82
+OBJC_SELECTOR_REFERENCES_.83
+OBJC_METH_VAR_NAME_.84
+OBJC_SELECTOR_REFERENCES_.85
+OBJC_METH_VAR_NAME_.86
+OBJC_SELECTOR_REFERENCES_.87
+OBJC_METH_VAR_NAME_.88
+OBJC_SELECTOR_REFERENCES_.89
+.str.90
+_unnamed_cfstring_.91
+OBJC_CLASSLIST_REFERENCES_$_.92
+OBJC_METH_VAR_NAME_.93
+OBJC_SELECTOR_REFERENCES_.94
+OBJC_METH_VAR_NAME_.95
+OBJC_SELECTOR_REFERENCES_.96
+OBJC_METH_VAR_NAME_.97
+OBJC_SELECTOR_REFERENCES_.98
+OBJC_METH_VAR_NAME_.99
+OBJC_SELECTOR_REFERENCES_.100
+OBJC_METH_VAR_NAME_.101
+OBJC_SELECTOR_REFERENCES_.102
+OBJC_METH_VAR_NAME_.103
+OBJC_SELECTOR_REFERENCES_.104
+OBJC_METH_VAR_NAME_.105
+OBJC_SELECTOR_REFERENCES_.106
+OBJC_METH_VAR_NAME_.107
+OBJC_SELECTOR_REFERENCES_.108
+OBJC_METH_VAR_NAME_.109
+OBJC_SELECTOR_REFERENCES_.110
+.str.111
+_unnamed_cfstring_.112
+OBJC_METH_VAR_NAME_.113
+OBJC_SELECTOR_REFERENCES_.114
+OBJC_METH_VAR_NAME_.115
+OBJC_SELECTOR_REFERENCES_.116
+OBJC_METH_VAR_NAME_.117
+OBJC_SELECTOR_REFERENCES_.118
+OBJC_METH_VAR_NAME_.119
+OBJC_SELECTOR_REFERENCES_.120
+OBJC_METH_VAR_NAME_.121
+OBJC_SELECTOR_REFERENCES_.122
+.str.123
+_unnamed_cfstring_.124
+OBJC_METH_VAR_NAME_.125
+OBJC_SELECTOR_REFERENCES_.126
+OBJC_METH_VAR_NAME_.127
+OBJC_SELECTOR_REFERENCES_.128
+.str.129
+_unnamed_cfstring_.130
+OBJC_METH_VAR_NAME_.131
+OBJC_SELECTOR_REFERENCES_.132
+.str.133
+_unnamed_cfstring_.134
+.str.135
+_unnamed_cfstring_.136
+OBJC_CLASSLIST_REFERENCES_$_.137
+OBJC_METH_VAR_NAME_.138
+OBJC_SELECTOR_REFERENCES_.139
+.str.140
+_unnamed_cfstring_.141
+.str.142
+_unnamed_cfstring_.143
+.str.144
+_unnamed_cfstring_.145
+.str.146
+_unnamed_cfstring_.147
+OBJC_METH_VAR_NAME_.148
+OBJC_SELECTOR_REFERENCES_.149
+OBJC_CLASS_NAME_
+OBJC_METH_VAR_NAME_.150
+OBJC_METH_VAR_TYPE_
+OBJC_METH_VAR_TYPE_.151
+OBJC_METH_VAR_TYPE_.152
+OBJC_METH_VAR_NAME_.153
+OBJC_METH_VAR_NAME_.154
+OBJC_METH_VAR_NAME_.155
+OBJC_METH_VAR_NAME_.156
+OBJC_METH_VAR_TYPE_.157
+l_OBJC_$_CLASS_METHODS_OCMockObject
+l_OBJC_METACLASS_RO_$_OCMockObject
+OBJC_METH_VAR_NAME_.158
+OBJC_METH_VAR_TYPE_.159
+OBJC_METH_VAR_NAME_.160
+OBJC_METH_VAR_NAME_.161
+OBJC_METH_VAR_TYPE_.162
+OBJC_METH_VAR_NAME_.163
+OBJC_METH_VAR_NAME_.164
+OBJC_METH_VAR_NAME_.165
+OBJC_METH_VAR_NAME_.166
+OBJC_METH_VAR_NAME_.167
+OBJC_METH_VAR_TYPE_.168
+OBJC_METH_VAR_TYPE_.169
+OBJC_METH_VAR_NAME_.170
+OBJC_METH_VAR_TYPE_.171
+OBJC_METH_VAR_NAME_.172
+OBJC_METH_VAR_TYPE_.173
+OBJC_METH_VAR_NAME_.174
+OBJC_METH_VAR_TYPE_.175
+OBJC_METH_VAR_NAME_.176
+OBJC_METH_VAR_TYPE_.177
+OBJC_METH_VAR_NAME_.178
+OBJC_METH_VAR_TYPE_.179
+OBJC_METH_VAR_TYPE_.180
+l_OBJC_$_INSTANCE_METHODS_OCMockObject
+OBJC_METH_VAR_NAME_.181
+OBJC_METH_VAR_TYPE_.182
+OBJC_METH_VAR_NAME_.183
+OBJC_METH_VAR_NAME_.184
+OBJC_METH_VAR_TYPE_.185
+OBJC_METH_VAR_NAME_.186
+OBJC_METH_VAR_NAME_.187
+OBJC_METH_VAR_NAME_.188
+l_OBJC_$_INSTANCE_VARIABLES_OCMockObject
+l_OBJC_CLASS_RO_$_OCMockObject
+OBJC_LABEL_CLASS_$
+Apple LLVM version 7.3.0 (clang-703.0.29)
+-[OCMockObject _stubDescriptions:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMockObject.m
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source
+-[OCMockObject doesNotRecognizeSelector:]
+-[OCMockObject handleUnRecordedInvocation:]
+-[OCMockObject _nextExpectedInvocation]
+-[OCMockObject handleInvocation:]
+-[OCMockObject forwardInvocation:]
+-[OCMockObject handleSelector:]
+-[OCMockObject forwardingTargetForSelector:]
+-[OCMockObject verifyInvocation:atLocation:]
+-[OCMockObject verifyInvocation:]
+-[OCMockObject verifyWithDelay:atLocation:]
+-[OCMockObject verifyWithDelay:]
+-[OCMockObject verifyAtLocation:]
+-[OCMockObject verify]
+-[OCMockObject reject]
+-[OCMockObject expect]
+-[OCMockObject stub]
+-[OCMockObject stopMocking]
+-[OCMockObject setExpectationOrderMatters:]
+-[OCMockObject addExpectation:]
+-[OCMockObject addStub:]
+-[OCMockObject description]
+-[OCMockObject dealloc]
+-[OCMockObject init]
++[OCMockObject observerMock]
++[OCMockObject _makeNice:]
++[OCMockObject niceMockForProtocol:]
++[OCMockObject niceMockForClass:]
++[OCMockObject partialMockForObject:]
++[OCMockObject mockForProtocol:]
++[OCMockObject mockForClass:]
++[OCMockObject initialize]
+-[OCClassMockObject initWithClass:]
+-[OCClassMockObject dealloc]
+-[OCClassMockObject description]
+-[OCClassMockObject mockedClass]
+-[OCClassMockObject stopMocking]
+-[OCClassMockObject restoreMetaClass]
+-[OCClassMockObject addStub:]
+-[OCClassMockObject prepareClassForClassMethodMocking]
+__54-[OCClassMockObject prepareClassForClassMethodMocking]_block_invoke
+__copy_helper_block_
+__destroy_helper_block_
+-[OCClassMockObject setupForwarderForClassMethodSelector:]
+-[OCClassMockObject forwardInvocationForClassObject:]
+-[OCClassMockObject initializeForClassObject]
+-[OCClassMockObject methodSignatureForSelector:]
+-[OCClassMockObject mockObjectClass]
+-[OCClassMockObject class]
+-[OCClassMockObject respondsToSelector:]
+-[OCClassMockObject isKindOfClass:]
+-[OCClassMockObject conformsToProtocol:]
+-[OCClassMockObject(NSIsKindsImplementation) isNSValue__]
+-[OCClassMockObject(NSIsKindsImplementation) isNSTimeZone__]
+-[OCClassMockObject(NSIsKindsImplementation) isNSSet__]
+-[OCClassMockObject(NSIsKindsImplementation) isNSOrderedSet__]
+-[OCClassMockObject(NSIsKindsImplementation) isNSNumber__]
+-[OCClassMockObject(NSIsKindsImplementation) isNSDate__]
+-[OCClassMockObject(NSIsKindsImplementation) isNSString__]
+-[OCClassMockObject(NSIsKindsImplementation) isNSDictionary__]
+-[OCClassMockObject(NSIsKindsImplementation) isNSData__]
+-[OCClassMockObject(NSIsKindsImplementation) isNSArray__]
+OBJC_METH_VAR_NAME_.5
+OBJC_SELECTOR_REFERENCES_.6
+OBJC_METH_VAR_NAME_.7
+OBJC_SELECTOR_REFERENCES_.8
+OBJC_METH_VAR_NAME_.15
+OBJC_SELECTOR_REFERENCES_.16
+OBJC_METH_VAR_NAME_.17
+OBJC_SELECTOR_REFERENCES_.18
+OBJC_METH_VAR_NAME_.27
+OBJC_SELECTOR_REFERENCES_.28
+OBJC_METH_VAR_NAME_.29
+OBJC_SELECTOR_REFERENCES_.30
+.str.37
+_unnamed_cfstring_.38
+.str.39
+_unnamed_cfstring_.40
+.str.41
+_unnamed_cfstring_.42
+.str.43
+_unnamed_cfstring_.44
+.str.45
+_unnamed_cfstring_.46
+.str.47
+_unnamed_cfstring_.48
+OBJC_CLASSLIST_REFERENCES_$_.49
+OBJC_METH_VAR_NAME_.50
+OBJC_SELECTOR_REFERENCES_.51
+OBJC_CLASSLIST_REFERENCES_$_.52
+.str.53
+_unnamed_cfstring_.54
+.str.57
+_unnamed_cfstring_.58
+.str.59
+_unnamed_cfstring_.60
+OBJC_METH_VAR_NAME_.61
+OBJC_SELECTOR_REFERENCES_.62
+OBJC_METH_VAR_NAME_.63
+OBJC_SELECTOR_REFERENCES_.64
+.str.65
+__block_descriptor_tmp
+OBJC_METH_VAR_NAME_.66
+OBJC_SELECTOR_REFERENCES_.67
+OBJC_METH_VAR_NAME_.68
+OBJC_SELECTOR_REFERENCES_.69
+OBJC_CLASSLIST_REFERENCES_$_.70
+.str.71
+_unnamed_cfstring_.72
+OBJC_METH_VAR_NAME_.73
+OBJC_SELECTOR_REFERENCES_.74
+OBJC_METH_VAR_NAME_.75
+OBJC_SELECTOR_REFERENCES_.76
+OBJC_METH_VAR_NAME_.77
+OBJC_SELECTOR_REFERENCES_.78
+OBJC_METH_VAR_NAME_.81
+OBJC_SELECTOR_REFERENCES_.82
+OBJC_CLASSLIST_REFERENCES_$_.83
+l_OBJC_METACLASS_RO_$_OCClassMockObject
+OBJC_METH_VAR_TYPE_.89
+OBJC_METH_VAR_NAME_.90
+OBJC_METH_VAR_TYPE_.91
+OBJC_METH_VAR_NAME_.92
+OBJC_METH_VAR_TYPE_.93
+OBJC_METH_VAR_TYPE_.94
+OBJC_METH_VAR_TYPE_.95
+OBJC_METH_VAR_NAME_.96
+OBJC_METH_VAR_TYPE_.97
+OBJC_METH_VAR_NAME_.98
+OBJC_METH_VAR_TYPE_.99
+OBJC_METH_VAR_NAME_.100
+OBJC_METH_VAR_TYPE_.101
+OBJC_METH_VAR_NAME_.102
+OBJC_METH_VAR_TYPE_.103
+l_OBJC_$_INSTANCE_METHODS_OCClassMockObject
+OBJC_METH_VAR_TYPE_.104
+l_OBJC_$_INSTANCE_VARIABLES_OCClassMockObject
+l_OBJC_CLASS_RO_$_OCClassMockObject
+OBJC_CLASSLIST_REFERENCES_$_.106
+OBJC_CLASSLIST_REFERENCES_$_.107
+OBJC_CLASSLIST_REFERENCES_$_.108
+OBJC_CLASSLIST_REFERENCES_$_.109
+OBJC_CLASSLIST_REFERENCES_$_.110
+OBJC_CLASSLIST_REFERENCES_$_.111
+OBJC_CLASSLIST_REFERENCES_$_.112
+OBJC_CLASSLIST_REFERENCES_$_.113
+OBJC_CLASS_NAME_.114
+OBJC_METH_VAR_TYPE_.116
+OBJC_METH_VAR_NAME_.118
+OBJC_METH_VAR_NAME_.120
+OBJC_METH_VAR_NAME_.122
+OBJC_METH_VAR_NAME_.123
+OBJC_METH_VAR_NAME_.124
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_OCClassMockObject_$_NSIsKindsImplementation
+l_OBJC_$_CATEGORY_OCClassMockObject_$_NSIsKindsImplementation
+OBJC_LABEL_CATEGORY_$
+-[OCClassMockObject(NSIsKindsImplementation) isNSArray__]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCClassMockObject.m
+-[OCClassMockObject(NSIsKindsImplementation) isNSData__]
+-[OCClassMockObject(NSIsKindsImplementation) isNSDictionary__]
+-[OCClassMockObject(NSIsKindsImplementation) isNSString__]
+-[OCClassMockObject(NSIsKindsImplementation) isNSDate__]
+-[OCClassMockObject(NSIsKindsImplementation) isNSNumber__]
+-[OCClassMockObject(NSIsKindsImplementation) isNSOrderedSet__]
+-[OCClassMockObject(NSIsKindsImplementation) isNSSet__]
+-[OCClassMockObject(NSIsKindsImplementation) isNSTimeZone__]
+-[OCClassMockObject(NSIsKindsImplementation) isNSValue__]
+-[OCClassMockObject conformsToProtocol:]
+-[OCClassMockObject isKindOfClass:]
+-[OCClassMockObject respondsToSelector:]
+-[OCClassMockObject class]
+-[OCClassMockObject mockObjectClass]
+-[OCClassMockObject methodSignatureForSelector:]
+-[OCClassMockObject initializeForClassObject]
+-[OCClassMockObject forwardInvocationForClassObject:]
+-[OCClassMockObject setupForwarderForClassMethodSelector:]
+-[OCClassMockObject prepareClassForClassMethodMocking]
+-[OCClassMockObject addStub:]
+-[OCClassMockObject restoreMetaClass]
+-[OCClassMockObject stopMocking]
+-[OCClassMockObject mockedClass]
+-[OCClassMockObject description]
+-[OCClassMockObject dealloc]
+-[OCClassMockObject initWithClass:]
+-[OCPartialMockObject initWithObject:]
+-[OCPartialMockObject dealloc]
+-[OCPartialMockObject description]
+-[OCPartialMockObject realObject]
+-[OCPartialMockObject assertClassIsSupported:]
+-[OCPartialMockObject stopMocking]
+-[OCPartialMockObject addStub:]
+-[OCPartialMockObject handleUnRecordedInvocation:]
+-[OCPartialMockObject prepareObjectForInstanceMethodMocking]
+__60-[OCPartialMockObject prepareObjectForInstanceMethodMocking]_block_invoke
+-[OCPartialMockObject setupForwarderForSelector:]
+-[OCPartialMockObject classForRealObject]
+-[OCPartialMockObject forwardingTargetForSelectorForRealObject:]
+-[OCPartialMockObject ocmock_replaced_forwardingTargetForSelector:]
+-[OCPartialMockObject forwardInvocationForRealObject:]
+.str.17
+_unnamed_cfstring_.18
+.str.21
+_unnamed_cfstring_.22
+.str.23
+_unnamed_cfstring_.24
+.str.25
+_unnamed_cfstring_.26
+.str.27
+_unnamed_cfstring_.28
+OBJC_CLASSLIST_REFERENCES_$_.29
+OBJC_METH_VAR_NAME_.30
+OBJC_SELECTOR_REFERENCES_.31
+OBJC_METH_VAR_NAME_.32
+OBJC_SELECTOR_REFERENCES_.33
+OBJC_METH_VAR_NAME_.34
+OBJC_SELECTOR_REFERENCES_.35
+OBJC_METH_VAR_NAME_.36
+OBJC_SELECTOR_REFERENCES_.37
+OBJC_METH_VAR_NAME_.38
+OBJC_SELECTOR_REFERENCES_.39
+OBJC_METH_VAR_NAME_.42
+OBJC_SELECTOR_REFERENCES_.43
+OBJC_METH_VAR_NAME_.44
+OBJC_SELECTOR_REFERENCES_.45
+OBJC_METH_VAR_NAME_.46
+OBJC_SELECTOR_REFERENCES_.47
+OBJC_METH_VAR_NAME_.48
+OBJC_SELECTOR_REFERENCES_.49
+OBJC_METH_VAR_NAME_.52
+OBJC_SELECTOR_REFERENCES_.53
+OBJC_METH_VAR_NAME_.54
+OBJC_SELECTOR_REFERENCES_.55
+OBJC_METH_VAR_NAME_.56
+OBJC_SELECTOR_REFERENCES_.57
+OBJC_METH_VAR_NAME_.58
+OBJC_SELECTOR_REFERENCES_.59
+.str.64
+_unnamed_cfstring_.65
+.str.68
+_unnamed_cfstring_.69
+.str.70
+_unnamed_cfstring_.71
+.str.72
+_unnamed_cfstring_.73
+.str.74
+_unnamed_cfstring_.75
+.str.76
+_unnamed_cfstring_.77
+OBJC_CLASSLIST_REFERENCES_$_.82
+.str.83
+_unnamed_cfstring_.84
+.str.85
+_unnamed_cfstring_.86
+.str.87
+_unnamed_cfstring_.88
+OBJC_METH_VAR_NAME_.89
+OBJC_SELECTOR_REFERENCES_.90
+OBJC_METH_VAR_NAME_.91
+OBJC_SELECTOR_REFERENCES_.92
+.str.93
+OBJC_METH_VAR_NAME_.94
+OBJC_SELECTOR_REFERENCES_.95
+OBJC_SELECTOR_REFERENCES_.97
+OBJC_SELECTOR_REFERENCES_.99
+OBJC_SELECTOR_REFERENCES_.101
+OBJC_SELECTOR_REFERENCES_.103
+.str.104
+_unnamed_cfstring_.105
+OBJC_METH_VAR_NAME_.106
+OBJC_SELECTOR_REFERENCES_.107
+OBJC_METH_VAR_NAME_.108
+OBJC_SELECTOR_REFERENCES_.109
+OBJC_METH_VAR_NAME_.110
+OBJC_SELECTOR_REFERENCES_.111
+OBJC_METH_VAR_NAME_.112
+OBJC_SELECTOR_REFERENCES_.113
+OBJC_METH_VAR_NAME_.114
+OBJC_SELECTOR_REFERENCES_.115
+l_OBJC_METACLASS_RO_$_OCPartialMockObject
+OBJC_METH_VAR_NAME_.116
+OBJC_METH_VAR_TYPE_.117
+OBJC_METH_VAR_TYPE_.119
+OBJC_METH_VAR_TYPE_.120
+OBJC_METH_VAR_TYPE_.121
+OBJC_METH_VAR_TYPE_.123
+OBJC_METH_VAR_TYPE_.124
+OBJC_METH_VAR_TYPE_.125
+l_OBJC_$_INSTANCE_METHODS_OCPartialMockObject
+OBJC_METH_VAR_TYPE_.126
+l_OBJC_$_INSTANCE_VARIABLES_OCPartialMockObject
+l_OBJC_CLASS_RO_$_OCPartialMockObject
+-[OCPartialMockObject forwardInvocationForRealObject:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCPartialMockObject.m
+-[OCPartialMockObject ocmock_replaced_forwardingTargetForSelector:]
+-[OCPartialMockObject forwardingTargetForSelectorForRealObject:]
+-[OCPartialMockObject classForRealObject]
+-[OCPartialMockObject setupForwarderForSelector:]
+-[OCPartialMockObject prepareObjectForInstanceMethodMocking]
+-[OCPartialMockObject handleUnRecordedInvocation:]
+-[OCPartialMockObject addStub:]
+-[OCPartialMockObject stopMocking]
+-[OCPartialMockObject assertClassIsSupported:]
+-[OCPartialMockObject realObject]
+-[OCPartialMockObject description]
+-[OCPartialMockObject dealloc]
+-[OCPartialMockObject initWithObject:]
+-[OCProtocolMockObject initWithProtocol:]
+-[OCProtocolMockObject description]
+-[OCProtocolMockObject methodSignatureForSelector:]
+-[OCProtocolMockObject conformsToProtocol:]
+-[OCProtocolMockObject respondsToSelector:]
+methodSignatureForSelector:.opts
+OBJC_CLASSLIST_REFERENCES_$_.3
+OBJC_METH_VAR_NAME_.4
+OBJC_SELECTOR_REFERENCES_.5
+l_OBJC_METACLASS_RO_$_OCProtocolMockObject
+OBJC_METH_VAR_NAME_.8
+OBJC_METH_VAR_TYPE_.10
+OBJC_METH_VAR_TYPE_.11
+OBJC_METH_VAR_NAME_.12
+OBJC_METH_VAR_TYPE_.13
+OBJC_METH_VAR_NAME_.14
+OBJC_METH_VAR_TYPE_.15
+l_OBJC_$_INSTANCE_METHODS_OCProtocolMockObject
+OBJC_METH_VAR_TYPE_.17
+l_OBJC_$_INSTANCE_VARIABLES_OCProtocolMockObject
+l_OBJC_CLASS_RO_$_OCProtocolMockObject
+-[OCProtocolMockObject respondsToSelector:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCProtocolMockObject.m
+-[OCProtocolMockObject conformsToProtocol:]
+-[OCProtocolMockObject methodSignatureForSelector:]
+-[OCProtocolMockObject description]
+-[OCProtocolMockObject initWithProtocol:]
+-[OCMRecorder init]
+-[OCMRecorder initWithMockObject:]
+-[OCMRecorder setMockObject:]
+-[OCMRecorder dealloc]
+-[OCMRecorder description]
+-[OCMRecorder invocationMatcher]
+-[OCMRecorder classMethod]
+-[OCMRecorder ignoringNonObjectArgs]
+-[OCMRecorder methodSignatureForSelector:]
+-[OCMRecorder forwardInvocation:]
+-[OCMRecorder doesNotRecognizeSelector:]
+OBJC_CLASSLIST_REFERENCES_$_.31
+l_OBJC_METACLASS_RO_$_OCMRecorder
+OBJC_METH_VAR_TYPE_.35
+OBJC_METH_VAR_TYPE_.36
+OBJC_METH_VAR_TYPE_.37
+OBJC_METH_VAR_NAME_.39
+OBJC_METH_VAR_TYPE_.40
+OBJC_METH_VAR_NAME_.41
+OBJC_METH_VAR_TYPE_.43
+l_OBJC_$_INSTANCE_METHODS_OCMRecorder
+OBJC_METH_VAR_TYPE_.45
+OBJC_METH_VAR_TYPE_.46
+l_OBJC_$_INSTANCE_VARIABLES_OCMRecorder
+l_OBJC_CLASS_RO_$_OCMRecorder
+-[OCMRecorder doesNotRecognizeSelector:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMRecorder.m
+-[OCMRecorder forwardInvocation:]
+-[OCMRecorder methodSignatureForSelector:]
+-[OCMRecorder ignoringNonObjectArgs]
+-[OCMRecorder classMethod]
+-[OCMRecorder invocationMatcher]
+-[OCMRecorder description]
+-[OCMRecorder dealloc]
+-[OCMRecorder setMockObject:]
+-[OCMRecorder initWithMockObject:]
+-[OCMRecorder init]
+-[OCMStubRecorder init]
+-[OCMStubRecorder stub]
+-[OCMStubRecorder andReturn:]
+-[OCMStubRecorder andReturnValue:]
+-[OCMStubRecorder andThrow:]
+-[OCMStubRecorder andPost:]
+-[OCMStubRecorder andCall:onObject:]
+-[OCMStubRecorder andDo:]
+-[OCMStubRecorder andForwardToRealObject]
+-[OCMStubRecorder forwardInvocation:]
+-[OCMStubRecorder(Properties) _andReturn]
+__41-[OCMStubRecorder(Properties) _andReturn]_block_invoke
+-[OCMStubRecorder(Properties) _andThrow]
+__40-[OCMStubRecorder(Properties) _andThrow]_block_invoke
+__copy_helper_block_.48
+__destroy_helper_block_.49
+-[OCMStubRecorder(Properties) _andPost]
+__39-[OCMStubRecorder(Properties) _andPost]_block_invoke
+__copy_helper_block_.53
+__destroy_helper_block_.54
+-[OCMStubRecorder(Properties) _andCall]
+__39-[OCMStubRecorder(Properties) _andCall]_block_invoke
+__copy_helper_block_.58
+__destroy_helper_block_.59
+-[OCMStubRecorder(Properties) _andDo]
+__37-[OCMStubRecorder(Properties) _andDo]_block_invoke
+__copy_helper_block_.63
+__destroy_helper_block_.64
+-[OCMStubRecorder(Properties) _andForwardToRealObject]
+__54-[OCMStubRecorder(Properties) _andForwardToRealObject]_block_invoke
+__copy_helper_block_.68
+__destroy_helper_block_.69
+OBJC_SELECTOR_REFERENCES_.9
+OBJC_METH_VAR_NAME_.10
+OBJC_SELECTOR_REFERENCES_.11
+OBJC_CLASSLIST_REFERENCES_$_.12
+OBJC_CLASSLIST_REFERENCES_$_.13
+OBJC_CLASSLIST_REFERENCES_$_.14
+OBJC_CLASSLIST_REFERENCES_$_.17
+OBJC_METH_VAR_NAME_.18
+OBJC_SELECTOR_REFERENCES_.19
+OBJC_CLASSLIST_REFERENCES_$_.20
+OBJC_CLASSLIST_REFERENCES_$_.23
+OBJC_METH_VAR_NAME_.24
+OBJC_SELECTOR_REFERENCES_.25
+OBJC_METH_VAR_NAME_.26
+OBJC_SELECTOR_REFERENCES_.27
+l_OBJC_METACLASS_RO_$_OCMStubRecorder
+OBJC_METH_VAR_TYPE_.29
+OBJC_METH_VAR_TYPE_.34
+OBJC_METH_VAR_NAME_.35
+OBJC_METH_VAR_TYPE_.38
+l_OBJC_$_INSTANCE_METHODS_OCMStubRecorder
+l_OBJC_CLASS_RO_$_OCMStubRecorder
+OBJC_SELECTOR_REFERENCES_.40
+OBJC_SELECTOR_REFERENCES_.42
+.str.50
+__block_descriptor_tmp.51
+.str.55
+__block_descriptor_tmp.56
+.str.60
+__block_descriptor_tmp.61
+__block_descriptor_tmp.66
+__block_descriptor_tmp.71
+OBJC_CLASS_NAME_.72
+OBJC_METH_VAR_TYPE_.74
+OBJC_METH_VAR_NAME_.78
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_OCMStubRecorder_$_Properties
+OBJC_PROP_NAME_ATTR_
+OBJC_PROP_NAME_ATTR_.80
+OBJC_PROP_NAME_ATTR_.81
+OBJC_PROP_NAME_ATTR_.82
+OBJC_PROP_NAME_ATTR_.83
+OBJC_PROP_NAME_ATTR_.84
+OBJC_PROP_NAME_ATTR_.85
+l_OBJC_$_PROP_LIST_OCMStubRecorder_$_Properties
+l_OBJC_$_CATEGORY_OCMStubRecorder_$_Properties
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMStubRecorder.m
+-[OCMStubRecorder(Properties) _andForwardToRealObject]
+-[OCMStubRecorder(Properties) _andDo]
+-[OCMStubRecorder(Properties) _andCall]
+-[OCMStubRecorder(Properties) _andPost]
+-[OCMStubRecorder(Properties) _andThrow]
+-[OCMStubRecorder(Properties) _andReturn]
+-[OCMStubRecorder forwardInvocation:]
+-[OCMStubRecorder andForwardToRealObject]
+-[OCMStubRecorder andDo:]
+-[OCMStubRecorder andCall:onObject:]
+-[OCMStubRecorder andPost:]
+-[OCMStubRecorder andThrow:]
+-[OCMStubRecorder andReturnValue:]
+-[OCMStubRecorder andReturn:]
+-[OCMStubRecorder stub]
+-[OCMStubRecorder init]
+-[OCMExpectationRecorder init]
+-[OCMExpectationRecorder expectation]
+-[OCMExpectationRecorder never]
+-[OCMExpectationRecorder forwardInvocation:]
+l_OBJC_METACLASS_RO_$_OCMExpectationRecorder
+OBJC_METH_VAR_TYPE_.14
+l_OBJC_$_INSTANCE_METHODS_OCMExpectationRecorder
+l_OBJC_CLASS_RO_$_OCMExpectationRecorder
+-[OCMExpectationRecorder forwardInvocation:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMExpectationRecorder.m
+-[OCMExpectationRecorder never]
+-[OCMExpectationRecorder expectation]
+-[OCMExpectationRecorder init]
+-[OCMVerifier init]
+-[OCMVerifier forwardInvocation:]
+-[OCMVerifier dealloc]
+-[OCMVerifier location]
+-[OCMVerifier setLocation:]
+OBJC_IVAR_$_OCMVerifier._location
+l_OBJC_METACLASS_RO_$_OCMVerifier
+l_OBJC_$_INSTANCE_METHODS_OCMVerifier
+l_OBJC_$_INSTANCE_VARIABLES_OCMVerifier
+OBJC_PROP_NAME_ATTR_.18
+l_OBJC_$_PROP_LIST_OCMVerifier
+l_OBJC_CLASS_RO_$_OCMVerifier
+-[OCMVerifier setLocation:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMVerifier.h
+-[OCMVerifier location]
+-[OCMVerifier dealloc]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMVerifier.m
+-[OCMVerifier forwardInvocation:]
+-[OCMVerifier init]
+-[OCMInvocationMatcher dealloc]
+-[OCMInvocationMatcher setInvocation:]
+-[OCMInvocationMatcher setRecordedAsClassMethod:]
+-[OCMInvocationMatcher recordedAsClassMethod]
+-[OCMInvocationMatcher setIgnoreNonObjectArgs:]
+-[OCMInvocationMatcher description]
+-[OCMInvocationMatcher recordedInvocation]
+-[OCMInvocationMatcher matchesSelector:]
+-[OCMInvocationMatcher matchesInvocation:]
+OBJC_CLASSLIST_REFERENCES_$_.33
+OBJC_CLASSLIST_REFERENCES_$_.36
+OBJC_CLASSLIST_REFERENCES_$_.44
+l_OBJC_METACLASS_RO_$_OCMInvocationMatcher
+OBJC_METH_VAR_TYPE_.48
+OBJC_METH_VAR_TYPE_.50
+OBJC_METH_VAR_TYPE_.52
+OBJC_METH_VAR_TYPE_.55
+OBJC_METH_VAR_TYPE_.57
+OBJC_METH_VAR_TYPE_.59
+l_OBJC_$_INSTANCE_METHODS_OCMInvocationMatcher
+OBJC_METH_VAR_TYPE_.60
+OBJC_METH_VAR_TYPE_.61
+l_OBJC_$_INSTANCE_VARIABLES_OCMInvocationMatcher
+l_OBJC_CLASS_RO_$_OCMInvocationMatcher
+-[OCMInvocationMatcher matchesInvocation:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMInvocationMatcher.m
+-[OCMInvocationMatcher matchesSelector:]
+-[OCMInvocationMatcher recordedInvocation]
+-[OCMInvocationMatcher description]
+-[OCMInvocationMatcher setIgnoreNonObjectArgs:]
+-[OCMInvocationMatcher recordedAsClassMethod]
+-[OCMInvocationMatcher setRecordedAsClassMethod:]
+-[OCMInvocationMatcher setInvocation:]
+-[OCMInvocationMatcher dealloc]
+-[OCMInvocationStub init]
+-[OCMInvocationStub dealloc]
+-[OCMInvocationStub addInvocationAction:]
+-[OCMInvocationStub invocationActions]
+-[OCMInvocationStub handleInvocation:]
+OBJC_METH_VAR_NAME_.20
+OBJC_SELECTOR_REFERENCES_.21
+OBJC_CLASSLIST_REFERENCES_$_.22
+OBJC_CLASSLIST_REFERENCES_$_.25
+l_OBJC_METACLASS_RO_$_OCMInvocationStub
+OBJC_METH_VAR_TYPE_.32
+l_OBJC_$_INSTANCE_METHODS_OCMInvocationStub
+l_OBJC_$_INSTANCE_VARIABLES_OCMInvocationStub
+l_OBJC_CLASS_RO_$_OCMInvocationStub
+-[OCMInvocationStub handleInvocation:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMInvocationStub.m
+-[OCMInvocationStub invocationActions]
+-[OCMInvocationStub addInvocationAction:]
+-[OCMInvocationStub dealloc]
+-[OCMInvocationStub init]
+-[OCMInvocationExpectation setMatchAndReject:]
+-[OCMInvocationExpectation isMatchAndReject]
+-[OCMInvocationExpectation isSatisfied]
+-[OCMInvocationExpectation handleInvocation:]
+l_OBJC_METACLASS_RO_$_OCMInvocationExpectation
+OBJC_METH_VAR_TYPE_.9
+l_OBJC_$_INSTANCE_METHODS_OCMInvocationExpectation
+l_OBJC_$_INSTANCE_VARIABLES_OCMInvocationExpectation
+l_OBJC_CLASS_RO_$_OCMInvocationExpectation
+-[OCMInvocationExpectation handleInvocation:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMInvocationExpectation.m
+-[OCMInvocationExpectation isSatisfied]
+-[OCMInvocationExpectation isMatchAndReject]
+-[OCMInvocationExpectation setMatchAndReject:]
+-[OCMRealObjectForwarder handleInvocation:]
+l_OBJC_METACLASS_RO_$_OCMRealObjectForwarder
+l_OBJC_$_INSTANCE_METHODS_OCMRealObjectForwarder
+l_OBJC_CLASS_RO_$_OCMRealObjectForwarder
+-[OCMRealObjectForwarder handleInvocation:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMRealObjectForwarder.m
+-[OCMBlockCaller initWithCallBlock:]
+-[OCMBlockCaller dealloc]
+-[OCMBlockCaller handleInvocation:]
+l_OBJC_METACLASS_RO_$_OCMBlockCaller
+OBJC_METH_VAR_TYPE_.8
+l_OBJC_$_INSTANCE_METHODS_OCMBlockCaller
+OBJC_METH_VAR_TYPE_.12
+l_OBJC_$_INSTANCE_VARIABLES_OCMBlockCaller
+l_OBJC_CLASS_RO_$_OCMBlockCaller
+-[OCMBlockCaller handleInvocation:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMBlockCaller.m
+-[OCMBlockCaller dealloc]
+-[OCMBlockCaller initWithCallBlock:]
+-[OCMBoxedReturnValueProvider handleInvocation:]
+-[OCMBoxedReturnValueProvider isMethodReturnType:compatibleWithValueType:]
+.str.18
+l_OBJC_METACLASS_RO_$_OCMBoxedReturnValueProvider
+OBJC_METH_VAR_TYPE_.20
+l_OBJC_$_INSTANCE_METHODS_OCMBoxedReturnValueProvider
+l_OBJC_CLASS_RO_$_OCMBoxedReturnValueProvider
+-[OCMBoxedReturnValueProvider isMethodReturnType:compatibleWithValueType:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMBoxedReturnValueProvider.m
+-[OCMBoxedReturnValueProvider handleInvocation:]
+-[OCMExceptionReturnValueProvider handleInvocation:]
+.str.1
+_unnamed_cfstring_.2
+.str.3
+_unnamed_cfstring_.4
+l_OBJC_METACLASS_RO_$_OCMExceptionReturnValueProvider
+l_OBJC_$_INSTANCE_METHODS_OCMExceptionReturnValueProvider
+l_OBJC_CLASS_RO_$_OCMExceptionReturnValueProvider
+-[OCMExceptionReturnValueProvider handleInvocation:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMExceptionReturnValueProvider.m
+-[OCMIndirectReturnValueProvider initWithProvider:andSelector:]
+-[OCMIndirectReturnValueProvider dealloc]
+-[OCMIndirectReturnValueProvider handleInvocation:]
+l_OBJC_METACLASS_RO_$_OCMIndirectReturnValueProvider
+OBJC_METH_VAR_TYPE_.18
+l_OBJC_$_INSTANCE_METHODS_OCMIndirectReturnValueProvider
+OBJC_METH_VAR_TYPE_.22
+OBJC_METH_VAR_TYPE_.23
+l_OBJC_$_INSTANCE_VARIABLES_OCMIndirectReturnValueProvider
+l_OBJC_CLASS_RO_$_OCMIndirectReturnValueProvider
+-[OCMIndirectReturnValueProvider handleInvocation:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMIndirectReturnValueProvider.m
+-[OCMIndirectReturnValueProvider dealloc]
+-[OCMIndirectReturnValueProvider initWithProvider:andSelector:]
+-[OCMNotificationPoster initWithNotification:]
+-[OCMNotificationPoster dealloc]
+-[OCMNotificationPoster handleInvocation:]
+l_OBJC_METACLASS_RO_$_OCMNotificationPoster
+l_OBJC_$_INSTANCE_METHODS_OCMNotificationPoster
+OBJC_METH_VAR_TYPE_.16
+l_OBJC_$_INSTANCE_VARIABLES_OCMNotificationPoster
+l_OBJC_CLASS_RO_$_OCMNotificationPoster
+-[OCMNotificationPoster handleInvocation:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMNotificationPoster.m
+-[OCMNotificationPoster dealloc]
+-[OCMNotificationPoster initWithNotification:]
+-[OCMReturnValueProvider initWithValue:]
+-[OCMReturnValueProvider dealloc]
+-[OCMReturnValueProvider handleInvocation:]
+.str.15
+_unnamed_cfstring_.16
+.str.19
+_unnamed_cfstring_.20
+l_OBJC_METACLASS_RO_$_OCMReturnValueProvider
+OBJC_METH_VAR_TYPE_.28
+OBJC_METH_VAR_TYPE_.30
+l_OBJC_$_INSTANCE_METHODS_OCMReturnValueProvider
+l_OBJC_$_INSTANCE_VARIABLES_OCMReturnValueProvider
+l_OBJC_CLASS_RO_$_OCMReturnValueProvider
+-[OCMReturnValueProvider handleInvocation:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMReturnValueProvider.m
+-[OCMReturnValueProvider dealloc]
+-[OCMReturnValueProvider initWithValue:]
++[OCMLocation locationWithTestCase:file:line:]
+-[OCMLocation initWithTestCase:file:line:]
+-[OCMLocation dealloc]
+-[OCMLocation testCase]
+-[OCMLocation file]
+-[OCMLocation line]
+l_OBJC_$_CLASS_METHODS_OCMLocation
+l_OBJC_METACLASS_RO_$_OCMLocation
+OBJC_METH_VAR_TYPE_.19
+l_OBJC_$_INSTANCE_METHODS_OCMLocation
+OBJC_METH_VAR_TYPE_.21
+l_OBJC_$_INSTANCE_VARIABLES_OCMLocation
+l_OBJC_CLASS_RO_$_OCMLocation
+OCMMakeLocation
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMLocation.m
+-[OCMLocation line]
+-[OCMLocation file]
+-[OCMLocation testCase]
+-[OCMLocation dealloc]
+-[OCMLocation initWithTestCase:file:line:]
++[OCMLocation locationWithTestCase:file:line:]
++[OCMMacroState beginStubMacro]
++[OCMMacroState endStubMacro]
++[OCMMacroState beginExpectMacro]
++[OCMMacroState endExpectMacro]
++[OCMMacroState beginVerifyMacroAtLocation:]
++[OCMMacroState endVerifyMacro]
++[OCMMacroState globalState]
+-[OCMMacroState initWithRecorder:]
+-[OCMMacroState dealloc]
+-[OCMMacroState recorder]
+-[OCMMacroState switchToClassMethod]
+globalState
+OBJC_CLASSLIST_REFERENCES_$_.10
+OBJC_SELECTOR_REFERENCES_.15
+OBJC_METH_VAR_NAME_.22
+OBJC_SELECTOR_REFERENCES_.23
+OBJC_METH_VAR_TYPE_.25
+l_OBJC_$_CLASS_METHODS_OCMMacroState
+l_OBJC_METACLASS_RO_$_OCMMacroState
+l_OBJC_$_INSTANCE_METHODS_OCMMacroState
+l_OBJC_$_INSTANCE_VARIABLES_OCMMacroState
+l_OBJC_CLASS_RO_$_OCMMacroState
+-[OCMMacroState switchToClassMethod]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMMacroState.m
+-[OCMMacroState recorder]
+-[OCMMacroState dealloc]
+-[OCMMacroState initWithRecorder:]
++[OCMMacroState globalState]
++[OCMMacroState endVerifyMacro]
++[OCMMacroState beginVerifyMacroAtLocation:]
++[OCMMacroState endExpectMacro]
++[OCMMacroState beginExpectMacro]
++[OCMMacroState endStubMacro]
++[OCMMacroState beginStubMacro]
+-[OCMBlockArgCaller initWithBlockArguments:]
+-[OCMBlockArgCaller dealloc]
+-[OCMBlockArgCaller copyWithZone:]
+-[OCMBlockArgCaller handleArgument:]
+OBJC_CLASS_NAME_.14
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+l_OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+l_OBJC_CLASS_PROTOCOLS_$_OCMBlockArgCaller
+l_OBJC_METACLASS_RO_$_OCMBlockArgCaller
+l_OBJC_$_INSTANCE_METHODS_OCMBlockArgCaller
+l_OBJC_$_INSTANCE_VARIABLES_OCMBlockArgCaller
+l_OBJC_CLASS_RO_$_OCMBlockArgCaller
+-[OCMBlockArgCaller handleArgument:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMBlockArgCaller.m
+-[OCMBlockArgCaller copyWithZone:]
+-[OCMBlockArgCaller dealloc]
+-[OCMBlockArgCaller initWithBlockArguments:]
+-[OCObserverMockObject init]
+-[OCObserverMockObject retain]
+-[OCObserverMockObject dealloc]
+-[OCObserverMockObject description]
+-[OCObserverMockObject setExpectationOrderMatters:]
+-[OCObserverMockObject autoRemoveFromCenter:]
+-[OCObserverMockObject expect]
+-[OCObserverMockObject verify]
+-[OCObserverMockObject verifyAtLocation:]
+-[OCObserverMockObject notificationWithName:object:]
+-[OCObserverMockObject handleNotification:]
+.str.31
+_unnamed_cfstring_.32
+OBJC_CLASSLIST_REFERENCES_$_.46
+l_OBJC_METACLASS_RO_$_OCObserverMockObject
+OBJC_METH_VAR_TYPE_.51
+OBJC_METH_VAR_TYPE_.53
+l_OBJC_$_INSTANCE_METHODS_OCObserverMockObject
+OBJC_METH_VAR_NAME_.59
+OBJC_METH_VAR_TYPE_.62
+l_OBJC_$_INSTANCE_VARIABLES_OCObserverMockObject
+l_OBJC_CLASS_RO_$_OCObserverMockObject
+-[OCObserverMockObject handleNotification:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCObserverMockObject.m
+-[OCObserverMockObject notificationWithName:object:]
+-[OCObserverMockObject verifyAtLocation:]
+-[OCObserverMockObject verify]
+-[OCObserverMockObject expect]
+-[OCObserverMockObject autoRemoveFromCenter:]
+-[OCObserverMockObject setExpectationOrderMatters:]
+-[OCObserverMockObject description]
+-[OCObserverMockObject dealloc]
+-[OCObserverMockObject retain]
+-[OCObserverMockObject init]
+-[OCMObserverRecorder dealloc]
+-[OCMObserverRecorder notificationWithName:object:]
+-[OCMObserverRecorder notificationWithName:object:userInfo:]
+-[OCMObserverRecorder matchesNotification:]
+-[OCMObserverRecorder argument:matchesArgument:]
+l_OBJC_METACLASS_RO_$_OCMObserverRecorder
+OBJC_METH_VAR_TYPE_.31
+OBJC_METH_VAR_TYPE_.33
+l_OBJC_$_INSTANCE_METHODS_OCMObserverRecorder
+l_OBJC_$_INSTANCE_VARIABLES_OCMObserverRecorder
+l_OBJC_CLASS_RO_$_OCMObserverRecorder
+-[OCMObserverRecorder argument:matchesArgument:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMObserverRecorder.m
+-[OCMObserverRecorder matchesNotification:]
+-[OCMObserverRecorder notificationWithName:object:userInfo:]
+-[OCMObserverRecorder notificationWithName:object:]
+-[OCMObserverRecorder dealloc]
++[OCMArg any]
++[OCMArg anyPointer]
++[OCMArg anyObjectRef]
++[OCMArg anySelector]
++[OCMArg isNil]
++[OCMArg isNotNil]
++[OCMArg isEqual:]
++[OCMArg isNotEqual:]
++[OCMArg isKindOfClass:]
+__24+[OCMArg isKindOfClass:]_block_invoke
++[OCMArg checkWithSelector:onObject:]
++[OCMArg checkWithBlock:]
++[OCMArg setTo:]
++[OCMArg setToValue:]
++[OCMArg invokeBlock]
++[OCMArg invokeBlockWithArgs:]
++[OCMArg defaultValue]
++[OCMArg resolveSpecialValues:]
+OBJC_CLASSLIST_REFERENCES_$_.1
+OBJC_CLASSLIST_REFERENCES_$_.2
+OBJC_CLASSLIST_REFERENCES_$_.4
+.str.9
+OBJC_SELECTOR_REFERENCES_.13
+OBJC_SELECTOR_REFERENCES_.36
+OBJC_CLASSLIST_REFERENCES_$_.37
+OBJC_METH_VAR_TYPE_.47
+OBJC_METH_VAR_TYPE_.49
+OBJC_METH_VAR_TYPE_.63
+OBJC_METH_VAR_NAME_.65
+OBJC_METH_VAR_NAME_.67
+l_OBJC_$_CLASS_METHODS_OCMArg
+l_OBJC_METACLASS_RO_$_OCMArg
+l_OBJC_CLASS_RO_$_OCMArg
++[OCMArg resolveSpecialValues:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMArg.m
++[OCMArg defaultValue]
++[OCMArg invokeBlockWithArgs:]
++[OCMArg invokeBlock]
++[OCMArg setToValue:]
++[OCMArg setTo:]
++[OCMArg checkWithBlock:]
++[OCMArg checkWithSelector:onObject:]
++[OCMArg isKindOfClass:]
++[OCMArg isNotEqual:]
++[OCMArg isEqual:]
++[OCMArg isNotNil]
++[OCMArg isNil]
++[OCMArg anySelector]
++[OCMArg anyObjectRef]
++[OCMArg anyPointer]
++[OCMArg any]
++[OCMConstraint constraint]
+-[OCMConstraint evaluate:]
+-[OCMConstraint copyWithZone:]
++[OCMConstraint constraintWithSelector:onObject:]
++[OCMConstraint constraintWithSelector:onObject:withValue:]
+-[OCMAnyConstraint evaluate:]
+-[OCMIsNilConstraint evaluate:]
+-[OCMIsNotNilConstraint evaluate:]
+-[OCMIsNotEqualConstraint evaluate:]
+-[OCMInvocationConstraint evaluate:]
+-[OCMBlockConstraint initWithConstraintBlock:]
+-[OCMBlockConstraint dealloc]
+-[OCMBlockConstraint evaluate:]
+OBJC_CLASSLIST_REFERENCES_$_.11
+l_OBJC_$_CLASS_METHODS_OCMConstraint
+l_OBJC_METACLASS_RO_$_OCMConstraint
+l_OBJC_$_INSTANCE_METHODS_OCMConstraint
+l_OBJC_CLASS_RO_$_OCMConstraint
+OBJC_CLASS_NAME_.38
+l_OBJC_METACLASS_RO_$_OCMAnyConstraint
+l_OBJC_$_INSTANCE_METHODS_OCMAnyConstraint
+l_OBJC_CLASS_RO_$_OCMAnyConstraint
+OBJC_CLASS_NAME_.39
+l_OBJC_METACLASS_RO_$_OCMIsNilConstraint
+l_OBJC_$_INSTANCE_METHODS_OCMIsNilConstraint
+l_OBJC_CLASS_RO_$_OCMIsNilConstraint
+OBJC_CLASS_NAME_.40
+l_OBJC_METACLASS_RO_$_OCMIsNotNilConstraint
+l_OBJC_$_INSTANCE_METHODS_OCMIsNotNilConstraint
+l_OBJC_CLASS_RO_$_OCMIsNotNilConstraint
+OBJC_CLASS_NAME_.43
+l_OBJC_METACLASS_RO_$_OCMIsNotEqualConstraint
+l_OBJC_$_INSTANCE_METHODS_OCMIsNotEqualConstraint
+l_OBJC_$_INSTANCE_VARIABLES_OCMIsNotEqualConstraint
+l_OBJC_CLASS_RO_$_OCMIsNotEqualConstraint
+OBJC_CLASS_NAME_.50
+l_OBJC_METACLASS_RO_$_OCMInvocationConstraint
+l_OBJC_$_INSTANCE_METHODS_OCMInvocationConstraint
+l_OBJC_$_INSTANCE_VARIABLES_OCMInvocationConstraint
+l_OBJC_CLASS_RO_$_OCMInvocationConstraint
+OBJC_METH_VAR_NAME_.57
+OBJC_SELECTOR_REFERENCES_.58
+OBJC_CLASS_NAME_.59
+l_OBJC_METACLASS_RO_$_OCMBlockConstraint
+l_OBJC_$_INSTANCE_METHODS_OCMBlockConstraint
+OBJC_METH_VAR_TYPE_.64
+l_OBJC_$_INSTANCE_VARIABLES_OCMBlockConstraint
+l_OBJC_CLASS_RO_$_OCMBlockConstraint
+-[OCMBlockConstraint evaluate:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMConstraint.m
+-[OCMBlockConstraint dealloc]
+-[OCMBlockConstraint initWithConstraintBlock:]
+-[OCMInvocationConstraint evaluate:]
+-[OCMIsNotEqualConstraint evaluate:]
+-[OCMIsNotNilConstraint evaluate:]
+-[OCMIsNilConstraint evaluate:]
+-[OCMAnyConstraint evaluate:]
++[OCMConstraint constraintWithSelector:onObject:withValue:]
++[OCMConstraint constraintWithSelector:onObject:]
+-[OCMConstraint copyWithZone:]
+-[OCMConstraint evaluate:]
++[OCMConstraint constraint]
+-[OCMPassByRefSetter initWithValue:]
+-[OCMPassByRefSetter dealloc]
+-[OCMPassByRefSetter handleArgument:]
+l_OBJC_METACLASS_RO_$_OCMPassByRefSetter
+l_OBJC_$_INSTANCE_METHODS_OCMPassByRefSetter
+l_OBJC_$_INSTANCE_VARIABLES_OCMPassByRefSetter
+l_OBJC_CLASS_RO_$_OCMPassByRefSetter
+-[OCMPassByRefSetter handleArgument:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMPassByRefSetter.m
+-[OCMPassByRefSetter dealloc]
+-[OCMPassByRefSetter initWithValue:]
++[NSInvocation(OCMAdditions) invocationForBlock:withArguments:]
+-[NSInvocation(OCMAdditions) hasCharPointerArgument]
+-[NSInvocation(OCMAdditions) setArgumentWithObject:atIndex:]
+-[NSInvocation(OCMAdditions) getArgumentAtIndexAsObject:]
+-[NSInvocation(OCMAdditions) invocationDescription]
+-[NSInvocation(OCMAdditions) argumentDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) objectDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) boolDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) charDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) unsignedCharDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) intDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) unsignedIntDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) shortDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) unsignedShortDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) longDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) unsignedLongDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) longLongDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) unsignedLongLongDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) doubleDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) floatDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) longDoubleDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) structDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) pointerDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) cStringDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) selectorDescriptionAtIndex:]
+OBJC_CLASSLIST_REFERENCES_$_.7
+OBJC_CLASSLIST_REFERENCES_$_.19
+.str.26
+_unnamed_cfstring_.27
+OBJC_CLASSLIST_REFERENCES_$_.28
+.str.29
+_unnamed_cfstring_.30
+.str.33
+.str.34
+_unnamed_cfstring_.35
+.str.38
+.str.40
+_unnamed_cfstring_.41
+.str.44
+OBJC_CLASSLIST_REFERENCES_$_.47
+OBJC_METH_VAR_NAME_.70
+OBJC_SELECTOR_REFERENCES_.71
+OBJC_CLASSLIST_REFERENCES_$_.79
+OBJC_METH_VAR_NAME_.80
+OBJC_SELECTOR_REFERENCES_.81
+OBJC_SELECTOR_REFERENCES_.93
+.str.94
+_unnamed_cfstring_.95
+OBJC_CLASSLIST_REFERENCES_$_.98
+.str.101
+_unnamed_cfstring_.102
+.str.103
+_unnamed_cfstring_.104
+.str.105
+_unnamed_cfstring_.106
+OBJC_METH_VAR_NAME_.111
+OBJC_SELECTOR_REFERENCES_.112
+OBJC_SELECTOR_REFERENCES_.124
+OBJC_METH_VAR_NAME_.129
+OBJC_SELECTOR_REFERENCES_.130
+OBJC_METH_VAR_NAME_.133
+OBJC_SELECTOR_REFERENCES_.134
+OBJC_METH_VAR_NAME_.135
+OBJC_SELECTOR_REFERENCES_.136
+OBJC_METH_VAR_NAME_.137
+OBJC_SELECTOR_REFERENCES_.138
+OBJC_METH_VAR_NAME_.139
+OBJC_SELECTOR_REFERENCES_.140
+OBJC_METH_VAR_NAME_.141
+OBJC_SELECTOR_REFERENCES_.142
+OBJC_METH_VAR_NAME_.143
+OBJC_SELECTOR_REFERENCES_.144
+OBJC_METH_VAR_NAME_.145
+OBJC_SELECTOR_REFERENCES_.146
+OBJC_METH_VAR_NAME_.147
+OBJC_SELECTOR_REFERENCES_.148
+OBJC_METH_VAR_NAME_.149
+OBJC_SELECTOR_REFERENCES_.150
+.str.151
+_unnamed_cfstring_.152
+.str.153
+_unnamed_cfstring_.154
+OBJC_SELECTOR_REFERENCES_.156
+.str.157
+_unnamed_cfstring_.158
+OBJC_METH_VAR_NAME_.159
+OBJC_SELECTOR_REFERENCES_.160
+OBJC_CLASSLIST_REFERENCES_$_.161
+.str.162
+_unnamed_cfstring_.163
+OBJC_SELECTOR_REFERENCES_.165
+OBJC_SELECTOR_REFERENCES_.167
+.str.168
+_unnamed_cfstring_.169
+.str.170
+_unnamed_cfstring_.171
+.str.172
+_unnamed_cfstring_.173
+.str.174
+_unnamed_cfstring_.175
+.str.176
+_unnamed_cfstring_.177
+.str.178
+_unnamed_cfstring_.179
+.str.180
+_unnamed_cfstring_.181
+.str.182
+_unnamed_cfstring_.183
+.str.184
+_unnamed_cfstring_.185
+.str.186
+_unnamed_cfstring_.187
+.str.188
+_unnamed_cfstring_.189
+.str.190
+_unnamed_cfstring_.191
+.str.192
+_unnamed_cfstring_.193
+.str.194
+_unnamed_cfstring_.195
+OBJC_METH_VAR_NAME_.196
+OBJC_SELECTOR_REFERENCES_.197
+.str.198
+_unnamed_cfstring_.199
+.str.200
+.str.201
+_unnamed_cfstring_.202
+.str.203
+_unnamed_cfstring_.204
+OBJC_METH_VAR_NAME_.205
+OBJC_METH_VAR_TYPE_.206
+OBJC_METH_VAR_TYPE_.207
+OBJC_METH_VAR_NAME_.208
+OBJC_METH_VAR_TYPE_.209
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_NSInvocation_$_OCMAdditions
+OBJC_METH_VAR_NAME_.210
+OBJC_METH_VAR_TYPE_.211
+l_OBJC_$_CATEGORY_CLASS_METHODS_NSInvocation_$_OCMAdditions
+l_OBJC_$_CATEGORY_NSInvocation_$_OCMAdditions
+-[NSInvocation(OCMAdditions) selectorDescriptionAtIndex:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/NSInvocation+OCMAdditions.m
+-[NSInvocation(OCMAdditions) cStringDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) pointerDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) structDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) longDoubleDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) floatDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) doubleDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) unsignedLongLongDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) longLongDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) unsignedLongDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) longDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) unsignedShortDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) shortDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) unsignedIntDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) intDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) unsignedCharDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) charDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) boolDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) objectDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) argumentDescriptionAtIndex:]
+-[NSInvocation(OCMAdditions) invocationDescription]
+-[NSInvocation(OCMAdditions) getArgumentAtIndexAsObject:]
+-[NSInvocation(OCMAdditions) setArgumentWithObject:atIndex:]
+-[NSInvocation(OCMAdditions) hasCharPointerArgument]
++[NSInvocation(OCMAdditions) invocationForBlock:withArguments:]
++[NSMethodSignature(OCMAdditions) signatureForDynamicPropertyAccessedWithSelector:inClass:]
++[NSMethodSignature(OCMAdditions) propertyMatchingSelector:inClass:isGetter:]
++[NSMethodSignature(OCMAdditions) signatureForBlock:]
+-[NSMethodSignature(OCMAdditions) usesSpecialStructureReturn]
+-[NSMethodSignature(OCMAdditions) fullTypeString]
+-[NSMethodSignature(OCMAdditions) fullObjCTypes]
+.str.7
+_unnamed_cfstring_.8
+.str.11
+_unnamed_cfstring_.12
+.str.42
+_unnamed_cfstring_.43
+.str.46
+_unnamed_cfstring_.47
+.str.48
+_unnamed_cfstring_.49
+.str.54
+_unnamed_cfstring_.55
+OBJC_CLASSLIST_REFERENCES_$_.56
+OBJC_SELECTOR_REFERENCES_.66
+OBJC_SELECTOR_REFERENCES_.68
+OBJC_METH_VAR_TYPE_.72
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_NSMethodSignature_$_OCMAdditions
+OBJC_METH_VAR_TYPE_.76
+OBJC_METH_VAR_TYPE_.77
+OBJC_METH_VAR_TYPE_.79
+l_OBJC_$_CATEGORY_CLASS_METHODS_NSMethodSignature_$_OCMAdditions
+l_OBJC_$_CATEGORY_NSMethodSignature_$_OCMAdditions
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[NSMethodSignature(OCMAdditions) fullObjCTypes]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/NSMethodSignature+OCMAdditions.m
+-[NSMethodSignature(OCMAdditions) fullTypeString]
+-[NSMethodSignature(OCMAdditions) usesSpecialStructureReturn]
++[NSMethodSignature(OCMAdditions) signatureForBlock:]
++[NSMethodSignature(OCMAdditions) propertyMatchingSelector:inClass:isGetter:]
++[NSMethodSignature(OCMAdditions) signatureForDynamicPropertyAccessedWithSelector:inClass:]
+-[NSNotificationCenter(OCMAdditions) addMockObserver:name:object:]
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_NSNotificationCenter_$_OCMAdditions
+l_OBJC_$_CATEGORY_NSNotificationCenter_$_OCMAdditions
+-[NSNotificationCenter(OCMAdditions) addMockObserver:name:object:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/NSNotificationCenter+OCMAdditions.m
++[NSObject(OCMAdditions) instanceMethodForwarderForSelector:]
++[NSObject(OCMAdditions) enumerateMethodsInClass:usingBlock:]
+instanceMethodForwarderForSelector:._OCMReturnTypeCache
+OBJC_METH_VAR_TYPE_.24
+l_OBJC_$_CATEGORY_CLASS_METHODS_NSObject_$_OCMAdditions
+l_OBJC_$_CATEGORY_NSObject_$_OCMAdditions
++[NSObject(OCMAdditions) enumerateMethodsInClass:usingBlock:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/NSObject+OCMAdditions.m
++[NSObject(OCMAdditions) instanceMethodForwarderForSelector:]
+-[NSValue(OCMAdditions) getBytes:objCType:]
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_NSValue_$_OCMAdditions
+l_OBJC_$_CATEGORY_NSValue_$_OCMAdditions
+OCMNumberForValue
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/NSValue+OCMAdditions.m
+-[NSValue(OCMAdditions) getBytes:objCType:]
+.str.2
+.str.10
+.str.12
+_unnamed_cfstring_.13
+.str.49
+_unnamed_cfstring_.50
+_unnamed_cfstring_.56
+_unnamed_cfstring_.61
+.str.62
+_unnamed_cfstring_.63
+OCMEqualTypesAllowingOpaqueStructsInternal
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMFunctions.m
+OCMReportFailure
+OCMGetAssociatedMockForObject
+OCMSetAssociatedMockForObject
+OCMGetAssociatedMockForClass
+OCMSetAssociatedMockForClass
+OCMOriginalSelectorForAlias
+OCMAliasForOriginalSelector
+OCMIsAliasSelector
+OCMCreateSubclass
+OCMEqualTypesAllowingOpaqueStructs
+OCMNumberTypeForObjCType
+OCMTypeWithoutQualifiers
+OCMIsObjectType
+-[OCMArgAction handleArgument:]
+l_OBJC_METACLASS_RO_$_OCMArgAction
+l_OBJC_$_INSTANCE_METHODS_OCMArgAction
+l_OBJC_CLASS_RO_$_OCMArgAction
+-[OCMArgAction handleArgument:]
+/Users/koke/automattic/libs/WordPressCom-Analytics-iOS/Carthage/Checkouts/ocmock/Source/OCMock/OCMArgAction.m
+/Users/koke/Library/Developer/Xcode/DerivedData/OCMock-fvtwslwbwmfihigfpdulaocibkre/Build/Intermediates/OCMock.build/Release-iphoneos/OCMock iOS.build/DerivedSources/OCMock_vers.c
+_ZL15__ARCLite__loadv
+_ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+_ZL34__arclite_objc_autoreleasePoolPushv
+_ZL33__arclite_objc_autoreleasePoolPopPv
+_ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+_ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+_ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+_ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+_ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+_ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+_ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+_ZL18add_image_hook_ARCPK11mach_headerl
+_ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+_ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+_ZL21__arclite_object_copyP11objc_objectm
+_ZL21__arclite_objc_retainP11objc_object
+_ZL26__arclite_objc_retainBlockP11objc_object
+_ZL22__arclite_objc_releaseP11objc_object
+_ZL26__arclite_objc_autoreleaseP11objc_object
+_ZL32__arclite_objc_retainAutoreleaseP11objc_object
+_ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+_ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+_ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+_ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+_ZL22add_image_hook_swiftV1PK11mach_headerl
+_ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+_ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+_ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+_ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+_ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+_ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+_ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+_ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+_ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+_ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+_ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+_ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+_ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+_ZL32__arclite_object_getIndexedIvarsP11objc_object
+_ZL23__arclite_objc_getClassPKc
+_ZL27__arclite_objc_getMetaClassPKc
+_ZL31__arclite_objc_getRequiredClassPKc
+_ZL26__arclite_objc_lookUpClassPKc
+_ZL26__arclite_objc_getProtocolPKc
+_ZL23__arclite_class_getNameP10objc_class
+_ZL26__arclite_protocol_getNameP8Protocol
+_ZL37__arclite_objc_copyClassNamesForImagePKcPj
+_ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+_ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+_ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+_ZL14initialize_impP11objc_objectP13objc_selector
+_ZL18allocateMaybeSwiftP18glue_swift_class_tm
+_ZL22copySwiftV1MangledNamePKcb
+_ZL13demangledNamePKcb
+_ZL16scanMangledFieldRPKcS0_S1_Ri
+_ZL30arclite_uninitialized_functionv
+_ZL12cxxConstructP11objc_object
+_ZL20fixStringForCoreDataP11objc_object
+OBJC_METACLASS_$___ARCLite__
+_ZL24OBJC_CLASS_$___ARCLite__
+_ZL31OBJC_METACLASS_RO_$___ARCLite__
+_non_lazy_classes
+_ZL27OBJC_CLASS_RO_$___ARCLite__
+_ZL11_class_name
+_ZL32OBJC_$_CLASS_METHODS___ARCLite__
+_ZL17_load_method_name
+_ZL17_load_method_type
+_ZL23NSAutoreleasePool_class
+_ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+_ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+.str.5
+.str.6
+.str.13
+.str.16
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteIndexedSubscripting__
+l_OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+OBJC_CLASS_NAME_.32
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
+l_OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+_ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+_ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+.str.51
+.str.52
+_ZL30NSUndoManagerProxy_targetClass
+.str.63
+_ZL29original_NSManagedObject_init
+_ZL40original_NSManagedObject_allocWithEntity
+_ZL35original_NSManagedObject_allocBatch
+_ZL25NSMutableDictionary_class
+_ZL22NSConstantString_class
+_ZL14NSString_class
+OBJC_METH_VAR_NAME_.74
+OBJC_SELECTOR_REFERENCES_.75
+_ZL36original_NSKKMS_fastIndexForKnownKey
+_ZL27original_NSKKMS_indexForKey
+.str.78
+_ZL28original_NSKKsD_objectForKey
+_ZL34original_NSKKsD_removeObjectForKey
+_ZL32original_NSKKsD_setObject_forKey
+_ZL40original_NSKKsD_addEntriesFromDictionary
+_ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+_ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+.str.81
+.str.82
+_ZL31original_objc_allocateClassPair
+_ZL31original_object_getIndexedIvars
+.str.84
+_ZL22original_objc_getClass
+_ZL26original_objc_getMetaClass
+.str.86
+_ZL30original_objc_getRequiredClass
+_ZL25original_objc_lookUpClass
+.str.88
+_ZL25original_objc_getProtocol
+.str.89
+_ZL22original_class_getName
+_ZL25original_protocol_getName
+.str.91
+_ZL36original_objc_copyClassNamesForImage
+.str.96
+.str.97
+.str.98
+.str.99
+.str.100
+.str.102
+_ZL12demangleLock
+_ZL9Demangled
+OBJC_SELECTOR_REFERENCES_.117
+Apple LLVM version 7.3.0 (clang-703.0.21)
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -fembed-bitcode -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -fgnu-inline-asm -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=264.3 -march=armv7a
+__arclite_NSKKsD_addEntriesFromDictionary
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+fixStringForCoreData
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+cxxConstruct
+__arclite_NSManagedObject_init
+arclite_uninitialized_function
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+patch_t<const char **(const char *, unsigned int *)>
+__arclite_objc_copyClassNamesForImage
+patch_t<const char *(Protocol *)>
+__arclite_protocol_getName
+patch_t<const char *(Class)>
+__isctype
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk/usr/include/ctype.h
+isdigit
+scanMangledField
+copySwiftV1DemangledName
+demangledName
+__arclite_class_getName
+patch_t<Protocol *(const char *)>
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+patch_t<Class (const char *)>
+copySwiftV1MangledName
+__arclite_objc_getClass
+patch_t<void *(id)>
+word_align
+__arclite_object_getIndexedIvars
+patch_t<Class (Class, const char *, unsigned long)>
+allocateMaybeSwift
+isSwift
+metaclass
+__arclite_objc_allocateClassPair
+patch_t<Class (Class, const objc_image_info *)>
+initialize_imp
+property_list_nth
+transcribeProperties
+transcribeProtocols
+method_list_nth
+transcribeMethods
+alignment
+max
+ivar_list_nth
+transcribeIvars
+fastFlags
+ro
+__arclite_objc_readClassPair
+add_image_hook_swiftV1
+install_swiftV1
+patch_t<void (id *, id)>
+__arclite_objc_storeStrong
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+patch_t<void (id)>
+__arclite_objc_release
+__arclite_objc_retainBlock
+patch_t<id (id)>
+__arclite_objc_retain
+patch_t<id (id, unsigned long)>
+fixupCopiedReferences
+classOrSuperClassesUseARR
+__arclite_object_copy
+patch_t<void (id, objc_ivar *, id)>
+isScannedOffset
+alignedInstanceStart
+_class_getInstanceStart
+data
+__arclite_class_usesAutomaticRetainRelease
+_ivar_getClass
+__arclite_object_setIvar
+patch_t<objc_ivar *(id, const char *, void *)>
+__arclite_object_setInstanceVariable
+add_image_hook_ARC
+install_ARC
+objc_collectingEnabled
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk/usr/include/objc/objc-auto.h
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+addOrReplaceMethod
+install_dict_nil_value
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+keyedGetter
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+indexedGetter
+__arclite_NSArray_objectAtIndexedSubscript
+addMethod
+install_subscripting
+patch_lazy_pointers
+patch_t<void (void *)>
+__arclite_objc_autoreleasePoolPop
+patch_t<void *()>
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+install_autoreleasepool
+__ARCLite__load
