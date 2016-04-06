@@ -148,7 +148,7 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatSharingButtonOrderChanged,
     WPAnalyticsStatSharingButtonShowReblogChanged,
     WPAnalyticsStatSharingOpenedPublicize,
-    WPAnaltycisStatSharingOpenedSharingButtonSettings,
+    WPAnalyticsStatSharingOpenedSharingButtonSettings,
     WPAnalyticsStatSharingPublicizeConnected,
     WPAnalyticsStatSharingPublicizeDisconnected,
     WPAnalyticsStatSharingPublicizeConnectionAvailableToAllChanged,
