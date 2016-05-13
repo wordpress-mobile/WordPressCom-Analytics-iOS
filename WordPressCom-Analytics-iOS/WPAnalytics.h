@@ -102,7 +102,6 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatPerformedJetpackSignInFromStatsScreen,
     WPAnalyticsStatPersonUpdated,
     WPAnalyticsStatPersonRemoved,
-    WPAnalyticsStatPlanPurchased,
     WPAnalyticsStatPostListAuthorFilterChanged,
     WPAnalyticsStatPostListDraftAction,
     WPAnalyticsStatPostListEditAction,
