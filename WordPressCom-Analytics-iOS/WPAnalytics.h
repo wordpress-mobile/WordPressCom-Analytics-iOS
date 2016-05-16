@@ -88,6 +88,8 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatOpenedNotificationSettingStreams,
     WPAnalyticsStatOpenedNotificationSettingDetails,
     WPAnalyticsStatOpenedPages,
+    WPAnalyticsStatOpenedPlans,
+    WPAnalyticsStatOpenedPlansComparison,
     WPAnalyticsStatOpenedPeople,
     WPAnalyticsStatOpenedPerson,
     WPAnalyticsStatOpenedPosts,
