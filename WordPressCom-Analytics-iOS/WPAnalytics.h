@@ -73,7 +73,6 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatMenusOpenedItemEditor,
     WPAnalyticsStatMenusOrderedItems,
     WPAnalyticsStatMenusSavedMenu,
-    WPAnalyticsStatMenusUpdatedMenuName,
     WPAnalyticsStatNotificationsCommentApproved,
     WPAnalyticsStatNotificationsCommentFlaggedAsSpam,
     WPAnalyticsStatNotificationsCommentLiked,
