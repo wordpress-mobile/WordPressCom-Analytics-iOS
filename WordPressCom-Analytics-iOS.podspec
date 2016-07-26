@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "WordPressCom-Analytics-iOS"
-  s.version      = "0.1.16"
+  s.version      = "0.1.17"
   s.summary      = "Library for handling Analytics tracking in WPiOS"
   s.homepage     = "http://apps.wordpress.org"
   s.license      = { :type => "GPLv2" }
