@@ -18,6 +18,7 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatApplicationClosed,
     WPAnalyticsStatApplicationOpened,
     WPAnalyticsStatCreatedAccount,
+    WPAnalyticsStatCreatedSite,
     WPAnalyticsStatDefaultAccountChanged,
     WPAnalyticsStatEditorAddedPhotoViaLocalLibrary,
     WPAnalyticsStatEditorAddedVideoViaLocalLibrary,
