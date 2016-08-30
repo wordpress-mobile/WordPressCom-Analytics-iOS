@@ -206,7 +206,6 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatStatsPeriodWeeksAccessed,
     WPAnalyticsStatStatsPeriodMonthsAccessed,
     WPAnalyticsStatStatsPeriodYearsAccessed,
-    WPAnalyticsStatStatsOpenedWebVersion,
     WPAnalyticsStatStatsScrolledToBottom,
     WPAnalyticsStatStatsSinglePostAccessed,
     WPAnalyticsStatStatsTappedBarChart,
