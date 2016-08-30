@@ -186,12 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85902C9019833055004A95F2 /* Build configuration list for PBXNativeTarget "WordPressCom-Analytics-iOSTests" */;
 			buildPhases = (
-				177C355384E735A6CB952482 /* 📦 Check Pods Manifest.lock */,
+				177C355384E735A6CB952482 /* [CP] Check Pods Manifest.lock */,
 				85902C7619833055004A95F2 /* Sources */,
 				85902C7719833055004A95F2 /* Frameworks */,
 				85902C7819833055004A95F2 /* Resources */,
-				BF29EF8372C4431498B3B29D /* 📦 Embed Pods Frameworks */,
-				FB85E379D9F865ED59C85B11 /* 📦 Copy Pods Resources */,
+				BF29EF8372C4431498B3B29D /* [CP] Embed Pods Frameworks */,
+				FB85E379D9F865ED59C85B11 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,14 +242,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		177C355384E735A6CB952482 /* 📦 Check Pods Manifest.lock */ = {
+		177C355384E735A6CB952482 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +257,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		BF29EF8372C4431498B3B29D /* 📦 Embed Pods Frameworks */ = {
+		BF29EF8372C4431498B3B29D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,14 +272,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WordPressCom-Analytics-iOSTests/Pods-WordPressCom-Analytics-iOSTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FB85E379D9F865ED59C85B11 /* 📦 Copy Pods Resources */ = {
+		FB85E379D9F865ED59C85B11 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
