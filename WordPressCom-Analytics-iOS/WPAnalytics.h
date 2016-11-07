@@ -212,8 +212,6 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatStatsViewAllAccessed,
     WPAnalyticsStatSupportOpenedHelpshiftScreen,
     WPAnalyticsStatSupportReceivedResponseFromSupport,
-    WPAnalyticsStatSupportSentMessage,
-    WPAnalyticsStatSupportSentReplyToSupportMessage,
     WPAnalyticsStatSupportUserAcceptedTheSolution,
     WPAnalyticsStatSupportUserRejectedTheSolution,
     WPAnalyticsStatSupportUserSentScreenshot,
