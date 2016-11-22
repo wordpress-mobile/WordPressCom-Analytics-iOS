@@ -30,6 +30,8 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatEditorEditedImage,
     WPAnalyticsStatEditorEnabledNewVersion,
     WPAnalyticsStatEditorPublishedPost,
+    WPAnalyticsStatEditorQuickPublishedPost,
+    WPAnalyticsStatEditorQuickSavedDraft,
     WPAnalyticsStatEditorSavedDraft,
     WPAnalyticsStatEditorScheduledPost,
     WPAnalyticsStatEditorTappedBlockquote,
