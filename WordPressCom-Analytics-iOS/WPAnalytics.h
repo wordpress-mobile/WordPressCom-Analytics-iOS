@@ -92,6 +92,8 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatNotificationsCommentUnapproved,
     WPAnalyticsStatNotificationsCommentUnliked,
     WPAnalyticsStatNotificationsMissingSyncWarning,
+    WPAnalyticsStatNotificationsTappedNewPost,
+    WPAnalyticsStatNotificationsTappedViewReader,
     WPAnalyticsStatNotificationsSettingsUpdated,
     WPAnalyticsStatNotificationsSiteFollowAction,
     WPAnalyticsStatNotificationsSiteUnfollowAction,
