@@ -152,6 +152,7 @@ typedef NS_ENUM(NSUInteger, WPAnalyticsStat) {
     WPAnalyticsStatPostListNoResultsButtonPressed,
     WPAnalyticsStatPostListOpenedCellMenu,
     WPAnalyticsStatPostListPublishAction,
+    WPAnalyticsStatPostListScheduleAction,
     WPAnalyticsStatPostListPullToRefresh,
     WPAnalyticsStatPostListRestoreAction,
     WPAnalyticsStatPostListSearchOpened,
